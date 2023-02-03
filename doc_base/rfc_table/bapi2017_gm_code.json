@@ -1,0 +1,13 @@
+{
+  "description": "MMIM: New Key Assignment GM_CODE to Transaction of Inv. Mgmt",
+  "GM_CODE": {
+    "Key": false,
+    "Data Element": "GM_CODE",
+    "Domain": "CHAR02",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Assign code to transaction for BAPI goods movement",
+    "Checktable": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "description": "BAPI Communication Structure: Material Document Header Data",
+  "PSTNG_DATE": {
+    "Key": false,
+    "Data Element": "BUDAT",
+    "Domain": "DATUM",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "Posting Date in the Document",
+    "Checktable": null
+  },
+  "DOC_DATE": {
+    "Key": false,
+    "Data Element": "BLDAT",
+    "Domain": "DATUM",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "Document Date in Document",
+    "Checktable": null
+  },
+  "REF_DOC_NO": {
+    "Key": false,
+    "Data Element": "XBLNR",
+    "Domain": "XBLNR",
+    "DataType": "CHAR",
+    "Length": "16",
+    "DecimalPlaces": "0",
+    "Short Description": "Reference Document Number",
+    "Checktable": null
+  },
+  "BILL_OF_LADING": {
+    "Key": false,
+    "Data Element": "FRBNR",
+    "Domain": "XBLNR",
+    "DataType": "CHAR",
+    "Length": "16",
+    "DecimalPlaces": "0",
+    "Short Description": "Number of bill of lading at time of goods receipt",
+    "Checktable": null
+  },
+  "GR_GI_SLIP_NO": {
+    "Key": false,
+    "Data Element": "XABLN",
+    "Domain": "BELNR",
+    "DataType": "CHAR",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "Goods receipt/issue slip number",
+    "Checktable": null
+  },
+  "PR_UNAME": {
+    "Key": false,
+    "Data Element": "UNAME",
+    "Domain": "UNAME",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "User Name",
+    "Checktable": null
+  }
+}

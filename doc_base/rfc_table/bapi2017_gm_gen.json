@@ -1,0 +1,13 @@
+{
+  "description": "Goods Movement: General Interface Fields",
+  "TESTRUN": {
+    "Key": false,
+    "Data Element": "TESTRUN",
+    "Domain": "BAPIFLAG",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Switch to Simulation Session for Write BAPIs",
+    "Checktable": null
+  }
+}

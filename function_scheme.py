@@ -5,6 +5,7 @@ import os.path
 from variables import *
 import json
 from util import td_text_parser
+from table_scheme import get_table_scheme
 
 
 def get_function_scheme(function_name):
@@ -52,6 +53,9 @@ def get_function_scheme(function_name):
         for i, data in enumerate(td_data_list):
             if i < 2:
                 continue
+            if parameter_list[i] == 'Associated Type':
+                get_table_scheme(data)
+
             parameter_dict[parameter_list[i]] = data
 
     with open(file_root, 'w') as file:
