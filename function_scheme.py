@@ -1,33 +1,27 @@
 import requests
 from bs4 import BeautifulSoup as bs
 from pprint import pprint
-
-ROOT_URL = 'https://www.sapdatasheet.org/'
-FUNC_URL = 'abap/func/'
-POST_FIX = '.html#'
-result = {}
+import os.path
+from variables import *
+import json
+from util import td_text_parser
 
 
 def get_function_scheme(function_name):
     function_name = function_name.lower()
-    if function_name in result:
-        return result[function_name]
+    file_root = RFC_FUNC_ROOT + function_name + '.json'
 
-    page = requests.get(ROOT_URL + FUNC_URL + function_name + POST_FIX)
+    if os.path.isfile(file_root):
+        with open(file_root, 'r') as file:
+            parameters = json.load(file)
+            return parameters
+
+    page = requests.get(RFC_FUNC_URL + function_name + RFC_POST_FIX)
     soup = bs(page.text, "html.parser")
 
     description = soup.select('title')[0].text.replace(')', '(').split('(')[1]
 
     elements = soup.select('table.table-sm tr')
-
-    def td_text_parser(td_data):
-        if td_data.text and td_data.text.strip():
-            td_text = td_data.text.strip()
-            return td_text
-        elif td_data.select('input'):
-            return True if td_data.select('input')[0].get('checked') else False
-        else:
-            return None
 
     parameter_list = []
     api_parameter_dict = {
@@ -60,10 +54,10 @@ def get_function_scheme(function_name):
                 continue
             parameter_dict[parameter_list[i]] = data
 
-    result['function_name'] = api_parameter_dict
+    with open(file_root, 'w') as file:
+        file.write(json.dumps(api_parameter_dict))
 
-    pprint(result)
-    return api_parameter_dict
+        return api_parameter_dict
 
 
-get_function_scheme('bapi_goodsmvt_create')
+pprint(get_function_scheme('bapi_goodsmvt_create'))
