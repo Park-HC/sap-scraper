@@ -1,0 +1,2 @@
+- 셀레늄 설치
+- `chromedriver` 드라이브 파일 PATH 처리

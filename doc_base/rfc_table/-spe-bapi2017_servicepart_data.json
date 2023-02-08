@@ -1,0 +1,193 @@
+{
+  "description": "BAPI Communication Structure: Service Parts Data",
+  "LINE_ID": {
+    "Key": false,
+    "Data Element": "MB_LINE_ID",
+    "Domain": "MB_LINE_ID",
+    "DataType": "NUMC",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "Unique identification of document line",
+    "Checktable": null
+  },
+  "RET_AUTH_NUMBER": {
+    "Key": false,
+    "Data Element": "/SPE/RET_RMA",
+    "Domain": "/SPE/RET_RMA",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Return Material Authorization Number",
+    "Checktable": null
+  },
+  "DELIV_NUMBER": {
+    "Key": false,
+    "Data Element": "VBELN_VL",
+    "Domain": "VBELN",
+    "DataType": "CHAR",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "Delivery",
+    "Checktable": "*"
+  },
+  "DELIV_ITEM": {
+    "Key": false,
+    "Data Element": "POSNR_VL",
+    "Domain": "POSNR",
+    "DataType": "NUMC",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "Delivery Item",
+    "Checktable": "*"
+  },
+  "HU_NUMBER": {
+    "Key": false,
+    "Data Element": "EXIDV",
+    "Domain": "EXIDV",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "External Handling Unit Identification",
+    "Checktable": null
+  },
+  "INSPOUT_GUID": {
+    "Key": false,
+    "Data Element": "/SPE/EWM_INSP_GUID",
+    "Domain": "CHAR32",
+    "DataType": "CHAR",
+    "Length": "32",
+    "DecimalPlaces": "0",
+    "Short Description": "Inspection Outcome: Stock  GUID set by EWM",
+    "Checktable": null
+  },
+  "EVENT": {
+    "Key": false,
+    "Data Element": "TSEGTIMTYP",
+    "Domain": "TSEGTIMTYP",
+    "DataType": "CHAR",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "Logical time",
+    "Checktable": "*"
+  },
+  "DATE": {
+    "Key": false,
+    "Data Element": "DATUM",
+    "Domain": "DATUM",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "Date",
+    "Checktable": null
+  },
+  "TIME": {
+    "Key": false,
+    "Data Element": "UZEIT",
+    "Domain": "UZEIT",
+    "DataType": "TIMS",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "Time",
+    "Checktable": null
+  },
+  "ZONLO": {
+    "Key": false,
+    "Data Element": "SYSTZONLO",
+    "Domain": "SYCHAR06",
+    "DataType": "CHAR",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "Time Zone",
+    "Checktable": null
+  },
+  "TIMESTAMP": {
+    "Key": false,
+    "Data Element": "TSEGEVTFRS",
+    "Domain": "TZNTSTMPS",
+    "DataType": "DEC",
+    "Length": "15",
+    "DecimalPlaces": "0",
+    "Short Description": "Start time of transaction (UTC time stamp)",
+    "Checktable": null
+  },
+  "SCRAP_INDICATOR": {
+    "Key": false,
+    "Data Element": "/SPE/DELIVERY_SCRAP_IND",
+    "Domain": "/SPE/DELIVERY_SCRAP_IND",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Scrap Indicator for EWM Processing",
+    "Checktable": null
+  },
+  "KEEP_QUANTITY": {
+    "Key": false,
+    "Data Element": "/SPE/KEEP_QUANTITY",
+    "Domain": "MENG13",
+    "DataType": "QUAN",
+    "Length": "13",
+    "DecimalPlaces": "3",
+    "Short Description": "Retention Quantity for Scrap. Process in EWM",
+    "Checktable": null
+  },
+  "GTS_STOCK_TYPE": {
+    "Key": false,
+    "Data Element": "/SPE/GTS_STOCK_TYPE",
+    "Domain": "/SPE/GTS_STOCK_TYPE",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "GTS Stock Type",
+    "Checktable": null
+  },
+  "MOVE_GTS_STOCK_TYPE": {
+    "Key": false,
+    "Data Element": "/SPE/GTS_STOCK_TYPE",
+    "Domain": "/SPE/GTS_STOCK_TYPE",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "GTS Stock Type",
+    "Checktable": null
+  },
+  "KEEP_QUANTITY_CONVERSION": {
+    "Key": false,
+    "Data Element": "XNOCON",
+    "Domain": "XFELD",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Quantity conversion not necessary",
+    "Checktable": null
+  },
+  "ZERO_QUANTITY": {
+    "Key": false,
+    "Data Element": "XZEROQUANTITY",
+    "Domain": "XFELD",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Allow Posting of Goods Movement Despite Zero Quantity",
+    "Checktable": null
+  },
+  "NUMERATOR": {
+    "Key": false,
+    "Data Element": "UMVKZ",
+    "Domain": "UMBSZ",
+    "DataType": "DEC",
+    "Length": "5",
+    "DecimalPlaces": "0",
+    "Short Description": "Numerator (factor) for conversion of sales quantity into SKU",
+    "Checktable": null
+  },
+  "DENOMINATR": {
+    "Key": false,
+    "Data Element": "UMVKN",
+    "Domain": "UMBSN",
+    "DataType": "DEC",
+    "Length": "5",
+    "DecimalPlaces": "0",
+    "Short Description": "Denominator (divisor) for conversion of sales qty. into SKU",
+    "Checktable": null
+  }
+}

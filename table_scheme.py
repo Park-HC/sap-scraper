@@ -15,7 +15,10 @@ def get_table_scheme(table_name):
 
         return get_table_scheme(name_list[0])[name_list[1].upper()]
 
-    file_root = RFC_TABLE_ROOT + table_name + '.json'
+    if table_name[0] != '/':
+        file_root = RFC_TABLE_ROOT + table_name + '.json'
+    else:
+        file_root = RFC_TABLE_ROOT + table_name.replace('/', '-') + '.json'
 
     if os.path.isfile(file_root):
         with open(file_root, 'r') as file:

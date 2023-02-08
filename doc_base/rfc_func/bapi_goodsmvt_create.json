@@ -1,0 +1,105 @@
+{
+  "description": "Post goods movements with MB_CREATE_GOODS_MOVEMENT",
+  "Exporting": {
+    "GOODSMVT_HEADRET": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_HEAD_RET",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Material Document Number/Material Document Year"
+    },
+    "MATERIALDOCUMENT": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_HEAD_RET-MAT_DOC",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Number of Material Document"
+    },
+    "MATDOCUMENTYEAR": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_HEAD_RET-DOC_YEAR",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Material Document Year"
+    }
+  },
+  "Importing": {
+    "GOODSMVT_HEADER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_HEAD_01",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Material Document Header Data"
+    },
+    "GOODSMVT_CODE": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_CODE",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Assign Code to Transaction for Goods Movement"
+    },
+    "TESTRUN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_GEN-TESTRUN",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Simulate Goods Movement"
+    },
+    "GOODSMVT_REF_EWM": {
+      "Typing": "TYPE",
+      "Associated Type": "/SPE/BAPI2017_GM_REF_EWM",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "BAPI Communication Structure: Material Document EWM Ref."
+    }
+  },
+  "Tables": {
+    "GOODSMVT_ITEM": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_ITEM_CREATE",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Material Document Items"
+    },
+    "GOODSMVT_SERIALNUMBER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_SERIALNUMBER",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Serial Number"
+    },
+    "RETURN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRET2",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Return Messages"
+    },
+    "GOODSMVT_SERV_PART_DATA": {
+      "Typing": "TYPE",
+      "Associated Type": "/SPE/BAPI2017_SERVICEPART_DATA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": null
+    },
+    "EXTENSIONIN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIPAREX",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Reference Structure for BAPI Parameters EXTENSIONIN/EXTENSIONOUT"
+    }
+  }
+}
