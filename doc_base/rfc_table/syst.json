@@ -1,1 +1,1713 @@
-{"description": "ABAP System Fields", "INDEX": {"Key": false, "Data Element": "SYST_INDEX", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Loop Index", "Checktable": null}, "PAGNO": {"Key": false, "Data Element": "SYST_PAGNO", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current List Page", "Checktable": null}, "TABIX": {"Key": false, "Data Element": "SYST_TABIX", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Row Index of Internal Tables", "Checktable": null}, "TFILL": {"Key": false, "Data Element": "SYST_TFILL", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Number of Rows in Internal Tables", "Checktable": null}, "TLOPC": {"Key": false, "Data Element": "SYST_TLOPC", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "TMAXL": {"Key": false, "Data Element": "SYST_TMAXL", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "TOCCU": {"Key": false, "Data Element": "SYST_TOCCU", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "TTABC": {"Key": false, "Data Element": "SYST_TTABC", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "TSTIS": {"Key": false, "Data Element": "SYST_TSTIS", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "TTABI": {"Key": false, "Data Element": "SYST_TTABI", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "DBCNT": {"Key": false, "Data Element": "SYST_DBCNT", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Edited Database Table Rows", "Checktable": null}, "FDPOS": {"Key": false, "Data Element": "SYST_FDPOS", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Occurrence in Byte or Character String", "Checktable": null}, "COLNO": {"Key": false, "Data Element": "SYST_COLNO", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current Column in Current List", "Checktable": null}, "LINCT": {"Key": false, "Data Element": "SYST_LINCT", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Page Length of Current List", "Checktable": null}, "LINNO": {"Key": false, "Data Element": "SYST_LINNO", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current Line in Current List", "Checktable": null}, "LINSZ": {"Key": false, "Data Element": "SYST_LINSZ", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Line Width of Current List", "Checktable": null}, "PAGCT": {"Key": false, "Data Element": "SYST_PAGCT", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "MACOL": {"Key": false, "Data Element": "SYST_MACOL", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Columns on Left Margin of Print List", "Checktable": null}, "MAROW": {"Key": false, "Data Element": "SYST_MAROW", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Columns at Top of Print List", "Checktable": null}, "TLENG": {"Key": false, "Data Element": "SYST_TLENG", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Row Length of Internal Table", "Checktable": null}, "SFOFF": {"Key": false, "Data Element": "SYST_SFOFF", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "WILLI": {"Key": false, "Data Element": "SYST_WILLI", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "LILLI": {"Key": false, "Data Element": "SYST_LILLI", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Selected List Line", "Checktable": null}, "SUBRC": {"Key": false, "Data Element": "SYST_SUBRC", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Return Code of ABAP Statements", "Checktable": null}, "FLENG": {"Key": false, "Data Element": "SYST_FLENG", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "CUCOL": {"Key": false, "Data Element": "SYST_CUCOL", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Horizontal Cursor Position in PAI", "Checktable": null}, "CUROW": {"Key": false, "Data Element": "SYST_CUROW", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Vertical Cursor Position in PAI", "Checktable": null}, "LSIND": {"Key": false, "Data Element": "SYST_LSIND", "Domain": "SYST_BYTE", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current List Level", "Checktable": null}, "LISTI": {"Key": false, "Data Element": "SYST_LISTI", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: List Level of Displayed List", "Checktable": null}, "STEPL": {"Key": false, "Data Element": "SYST_STEPL", "Domain": "SYST_BYTE", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current Step Loop or Table Control Line", "Checktable": null}, "TPAGI": {"Key": false, "Data Element": "SYST_TPAGI", "Domain": "SYST_BYTE", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "WINX1": {"Key": false, "Data Element": "SYST_WINX1", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "WINY1": {"Key": false, "Data Element": "SYST_WINY1", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "WINX2": {"Key": false, "Data Element": "SYST_WINX2", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "WINY2": {"Key": false, "Data Element": "SYST_WINY2", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "WINCO": {"Key": false, "Data Element": "SYST_WINCO", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "WINRO": {"Key": false, "Data Element": "SYST_WINRO", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "WINDI": {"Key": false, "Data Element": "SYST_WINDI", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "SROWS": {"Key": false, "Data Element": "SYST_SROWS", "Domain": "SYST_BYTE", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Number of Screen Rows", "Checktable": null}, "SCOLS": {"Key": false, "Data Element": "SYST_SCOLS", "Domain": "SYST_BYTE", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Number of Columns on Screen", "Checktable": null}, "LOOPC": {"Key": false, "Data Element": "SYST_LOOPC", "Domain": "SYST_BYTE", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Visible Lines of Step Loop", "Checktable": null}, "FOLEN": {"Key": false, "Data Element": "SYST_FOLEN", "Domain": "SYST_BYTE", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "FODEC": {"Key": false, "Data Element": "SYST_FODEC", "Domain": "SYST_BYTE", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "TZONE": {"Key": false, "Data Element": "SYST_TZONE", "Domain": "SYST_SHORT", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Time Zone", "Checktable": null}, "DAYST": {"Key": false, "Data Element": "SYST_DAYST", "Domain": "SYST_FLAG", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Daylight Saving Time", "Checktable": null}, "FTYPE": {"Key": false, "Data Element": "SYST_FTYPE", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "APPLI": {"Key": false, "Data Element": "SYST_APPLI", "Domain": "SYHEX02", "DataType": "RAW", "Length": "2", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "FDAYW": {"Key": false, "Data Element": "SYST_FDAYW", "Domain": "SYBIN1", "DataType": "INT1", "Length": "3", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Factory Calendar Weekday", "Checktable": null}, "CCURS": {"Key": false, "Data Element": "SYST_CCURS", "Domain": "SYPACK05", "DataType": "DEC", "Length": "9", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "CCURT": {"Key": false, "Data Element": "SYST_CCURT", "Domain": "SYPACK05", "DataType": "DEC", "Length": "9", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "DEBUG": {"Key": false, "Data Element": "SYST_DEBUG", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "CTYPE": {"Key": false, "Data Element": "SYST_CTYPE", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "INPUT": {"Key": false, "Data Element": "SYST_INPUT", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "LANGU": {"Key": false, "Data Element": "SYST_LANGU", "Domain": "SYLANGU", "DataType": "LANG", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Language Key of Text Environment", "Checktable": null}, "MODNO": {"Key": false, "Data Element": "SYST_MODNO", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Index of External Mode", "Checktable": null}, "BATCH": {"Key": false, "Data Element": "SYST_BATCH", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Background Processing Active", "Checktable": null}, "BINPT": {"Key": false, "Data Element": "SYST_BINPT", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Batch Input Processing Active", "Checktable": null}, "CALLD": {"Key": false, "Data Element": "SYST_CALLD", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Call Mode of Current ABAP Program", "Checktable": null}, "DYNNR": {"Key": false, "Data Element": "SYST_DYNNR", "Domain": "SYCHAR04", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current Dynpro Number", "Checktable": null}, "DYNGR": {"Key": false, "Data Element": "SYST_DYNGR", "Domain": "SYCHAR04", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Screen Group of Current Dynpro", "Checktable": null}, "NEWPA": {"Key": false, "Data Element": "SYST_NEWPA", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "PRI40": {"Key": false, "Data Element": "SYST_PRI40", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "RSTRT": {"Key": false, "Data Element": "SYST_RSTRT", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "WTITL": {"Key": false, "Data Element": "SYST_WTITL", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Standard Page Header Flag", "Checktable": null}, "CPAGE": {"Key": false, "Data Element": "SYST_CPAGE", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current Page Number of List", "Checktable": null}, "DBNAM": {"Key": false, "Data Element": "SYST_DBNAM", "Domain": "LDBNAME", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Logical Database of Current Program", "Checktable": null}, "MANDT": {"Key": false, "Data Element": "SYST_MANDT", "Domain": "MANDT", "DataType": "CLNT", "Length": "3", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Client ID of Current User", "Checktable": "*"}, "PREFX": {"Key": false, "Data Element": "SYST_PREFX", "Domain": "SYCHAR03", "DataType": "CHAR", "Length": "3", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "FMKEY": {"Key": false, "Data Element": "SYST_FMKEY", "Domain": "SYCHAR03", "DataType": "CHAR", "Length": "3", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PEXPI": {"Key": false, "Data Element": "SYST_PEXPI", "Domain": "SYNUM01", "DataType": "NUMC", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PRINI": {"Key": false, "Data Element": "SYST_PRINI", "Domain": "SYNUM01", "DataType": "NUMC", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "PRIMM": {"Key": false, "Data Element": "SYST_PRIMM", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PRREL": {"Key": false, "Data Element": "SYST_PRREL", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PLAYO": {"Key": false, "Data Element": "SYST_PLAYO", "Domain": "SYCHAR05", "DataType": "CHAR", "Length": "5", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "PRBIG": {"Key": false, "Data Element": "SYST_PRBIG", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PLAYP": {"Key": false, "Data Element": "SYST_PLAYP", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "PRNEW": {"Key": false, "Data Element": "SYST_PRNEW", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PRLOG": {"Key": false, "Data Element": "SYST_PRLOG", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "PDEST": {"Key": false, "Data Element": "SYST_PDEST", "Domain": "RSPOPNAME", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": "*"}, "PLIST": {"Key": false, "Data Element": "SYST_PLIST", "Domain": "SYCHAR12", "DataType": "CHAR", "Length": "12", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PAUTH": {"Key": false, "Data Element": "SYST_PAUTH", "Domain": "SYNUM02", "DataType": "NUMC", "Length": "2", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "PRDSN": {"Key": false, "Data Element": "SYST_PRDSN", "Domain": "SYCHAR06", "DataType": "CHAR", "Length": "6", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PNWPA": {"Key": false, "Data Element": "SYST_PNWPA", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "CALLR": {"Key": false, "Data Element": "SYST_CALLR", "Domain": "SYCHAR08", "DataType": "CHAR", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Start Context of Spool Action", "Checktable": null}, "REPI2": {"Key": false, "Data Element": "SYST_REPI2", "Domain": "PROGRAMM", "DataType": "CHAR", "Length": "40", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": "*"}, "RTITL": {"Key": false, "Data Element": "SYST_RTITL", "Domain": "SYCHAR70", "DataType": "CHAR", "Length": "70", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PRREC": {"Key": false, "Data Element": "SYST_PRREC", "Domain": "SYCHAR12", "DataType": "CHAR", "Length": "12", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PRTXT": {"Key": false, "Data Element": "SYST_PRTXT", "Domain": "SYCHAR68K", "DataType": "CHAR", "Length": "68", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "PRABT": {"Key": false, "Data Element": "SYST_PRABT", "Domain": "SYCHAR12K", "DataType": "CHAR", "Length": "12", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "LPASS": {"Key": false, "Data Element": "SYST_LPASS", "Domain": "SYCHAR04", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "NRPAG": {"Key": false, "Data Element": "SYST_NRPAG", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "PAART": {"Key": false, "Data Element": "SYST_PAART", "Domain": "RSPOPAPER", "DataType": "CHAR", "Length": "16", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": "*"}, "PRCOP": {"Key": false, "Data Element": "SYST_PRCOP", "Domain": "SYNUM03", "DataType": "NUMC", "Length": "3", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "BATZS": {"Key": false, "Data Element": "SYST_BATZS", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "BSPLD": {"Key": false, "Data Element": "SYST_BSPLD", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "BREP4": {"Key": false, "Data Element": "SYST_BREP4", "Domain": "SYCHAR04", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "BATZO": {"Key": false, "Data Element": "SYST_BATZO", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "BATZD": {"Key": false, "Data Element": "SYST_BATZD", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "BATZW": {"Key": false, "Data Element": "SYST_BATZW", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "BATZM": {"Key": false, "Data Element": "SYST_BATZM", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "CTABL": {"Key": false, "Data Element": "SYST_CTABL", "Domain": "SYCHAR04", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "DBSYS": {"Key": false, "Data Element": "SYST_DBSYS", "Domain": "SYCHAR10", "DataType": "CHAR", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Central Database System", "Checktable": null}, "DCSYS": {"Key": false, "Data Element": "SYST_DCSYS", "Domain": "SYCHAR04", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "MACDB": {"Key": false, "Data Element": "SYST_MACDB", "Domain": "SYCHAR04", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "SYSID": {"Key": false, "Data Element": "SYST_SYSID", "Domain": "SYCHAR08", "DataType": "CHAR", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Name of SAP System", "Checktable": null}, "OPSYS": {"Key": false, "Data Element": "SYST_OPSYS", "Domain": "SYOPSYS", "DataType": "CHAR", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Operating System of Application Server", "Checktable": null}, "PFKEY": {"Key": false, "Data Element": "SYST_PFKEY", "Domain": "GUI_STATUS", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current GUI Status", "Checktable": null}, "SAPRL": {"Key": false, "Data Element": "SYST_SAPRL", "Domain": "SYCHAR04", "DataType": "CHAR", "Length": "4", "DecimalPlaces": "0", "Short Description": "ABAP System Field: SAP System Release", "Checktable": null}, "TCODE": {"Key": false, "Data Element": "SYST_TCODE", "Domain": "TCODE", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current Transaction Code", "Checktable": "*"}, "UCOMM": {"Key": false, "Data Element": "SYST_UCOMM", "Domain": "SYCHAR70", "DataType": "CHAR", "Length": "70", "DecimalPlaces": "0", "Short Description": "ABAP System Field: PAI-Triggering Function Code", "Checktable": null}, "CFWAE": {"Key": false, "Data Element": "SYST_CFWAE", "Domain": "SYCUKY", "DataType": "CUKY", "Length": "5", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "CHWAE": {"Key": false, "Data Element": "SYST_CHWAE", "Domain": "SYCUKY", "DataType": "CUKY", "Length": "5", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "SPONO": {"Key": false, "Data Element": "SYST_SPONO", "Domain": "SYSPONO", "DataType": "NUMC", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Spool Number in Spool Output", "Checktable": null}, "SPONR": {"Key": false, "Data Element": "SYST_SPONR", "Domain": "SYSPONO", "DataType": "NUMC", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "WAERS": {"Key": false, "Data Element": "SYST_WAERS", "Domain": "SYCUKY", "DataType": "CUKY", "Length": "5", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "CDATE": {"Key": false, "Data Element": "SYST_CDATE", "Domain": "SYDATS", "DataType": "DATS", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "DATUM": {"Key": false, "Data Element": "SYST_DATUM", "Domain": "SYDATS", "DataType": "DATS", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current Date of Application Server", "Checktable": null}, "SLSET": {"Key": false, "Data Element": "SYST_SLSET", "Domain": "SYCHAR14", "DataType": "CHAR", "Length": "14", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Selection Screen Variant Used", "Checktable": null}, "SUBTY": {"Key": false, "Data Element": "SYST_SUBTY", "Domain": "SYHEX01", "DataType": "RAW", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "SUBCS": {"Key": false, "Data Element": "SYST_SUBCS", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "GROUP": {"Key": false, "Data Element": "SYST_GROUP", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "FFILE": {"Key": false, "Data Element": "SYST_FFILE", "Domain": "SYCHAR08", "DataType": "CHAR", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "UZEIT": {"Key": false, "Data Element": "SYST_UZEIT", "Domain": "SYTIME", "DataType": "TIMS", "Length": "6", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Current Time of Application Server", "Checktable": null}, "DSNAM": {"Key": false, "Data Element": "SYST_DSNAM", "Domain": "SYCHAR08", "DataType": "CHAR", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "TABID": {"Key": false, "Data Element": "SYST_TABID", "Domain": "SYCHAR08", "DataType": "CHAR", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "TFDSN": {"Key": false, "Data Element": "SYST_TFDSN", "Domain": "SYCHAR08", "DataType": "CHAR", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "UNAME": {"Key": false, "Data Element": "SYST_UNAME", "Domain": "SYCHAR12", "DataType": "CHAR", "Length": "12", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Name of Current User", "Checktable": null}, "LSTAT": {"Key": false, "Data Element": "SYST_LSTAT", "Domain": "SYCHAR16", "DataType": "CHAR", "Length": "16", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "ABCDE": {"Key": false, "Data Element": "SYST_ABCDE", "Domain": "SYCHAR26", "DataType": "CHAR", "Length": "26", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Latin Alphabet", "Checktable": null}, "MARKY": {"Key": false, "Data Element": "SYST_MARKY", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "SFNAM": {"Key": false, "Data Element": "SYST_SFNAM", "Domain": "SYCHAR30", "DataType": "CHAR", "Length": "30", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "TNAME": {"Key": false, "Data Element": "SYST_TNAME", "Domain": "SYCHAR30", "DataType": "CHAR", "Length": "30", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "MSGLI": {"Key": false, "Data Element": "SYST_MSGLI", "Domain": "SYCHAR60", "DataType": "CHAR", "Length": "60", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "TITLE": {"Key": false, "Data Element": "SYST_TITLE", "Domain": "SYCHAR70", "DataType": "CHAR", "Length": "70", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Title Line Content of Current Dynpro", "Checktable": null}, "ENTRY": {"Key": false, "Data Element": "SYST_ENTRY", "Domain": "SYCHAR72", "DataType": "CHAR", "Length": "72", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "LISEL": {"Key": false, "Data Element": "SYST_LISEL", "Domain": "SYCHAR255", "DataType": "CHAR", "Length": "255", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Content of Selected List Line", "Checktable": null}, "ULINE": {"Key": false, "Data Element": "SYST_ULINE", "Domain": "SYCHAR255", "DataType": "CHAR", "Length": "255", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Horizontal Line for List", "Checktable": null}, "XCODE": {"Key": false, "Data Element": "SYST_XCODE", "Domain": "SYCHAR70", "DataType": "CHAR", "Length": "70", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "CPROG": {"Key": false, "Data Element": "SYST_CPROG", "Domain": "PROGRAMM", "DataType": "CHAR", "Length": "40", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Calling Program", "Checktable": "*"}, "XPROG": {"Key": false, "Data Element": "SYST_XPROG", "Domain": "PROGRAMM", "DataType": "CHAR", "Length": "40", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": "*"}, "XFORM": {"Key": false, "Data Element": "SYST_XFORM", "Domain": "SYCHAR30", "DataType": "CHAR", "Length": "30", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "LDBPG": {"Key": false, "Data Element": "SYST_LDBPG", "Domain": "PROGRAMM", "DataType": "CHAR", "Length": "40", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Database Program of Logical Database", "Checktable": "*"}, "TVAR0": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR1": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR2": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR3": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR4": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR5": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR6": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR7": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR8": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "TVAR9": {"Key": false, "Data Element": "SYST_TVAR", "Domain": "SYCHAR20", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Text for Placeholders in List Headers", "Checktable": null}, "MSGID": {"Key": false, "Data Element": "SYST_MSGID", "Domain": "ARBGB", "DataType": "CHAR", "Length": "20", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Message ID", "Checktable": "*"}, "MSGTY": {"Key": false, "Data Element": "SYST_MSGTY", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Message Type", "Checktable": null}, "MSGNO": {"Key": false, "Data Element": "SYST_MSGNO", "Domain": "SYMSGNO", "DataType": "NUMC", "Length": "3", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Message Number", "Checktable": null}, "MSGV1": {"Key": false, "Data Element": "SYST_MSGV", "Domain": "SYCHAR50", "DataType": "CHAR", "Length": "50", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Message Variable", "Checktable": null}, "MSGV2": {"Key": false, "Data Element": "SYST_MSGV", "Domain": "SYCHAR50", "DataType": "CHAR", "Length": "50", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Message Variable", "Checktable": null}, "MSGV3": {"Key": false, "Data Element": "SYST_MSGV", "Domain": "SYCHAR50", "DataType": "CHAR", "Length": "50", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Message Variable", "Checktable": null}, "MSGV4": {"Key": false, "Data Element": "SYST_MSGV", "Domain": "SYCHAR50", "DataType": "CHAR", "Length": "50", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Message Variable", "Checktable": null}, "ONCOM": {"Key": false, "Data Element": "SYST_ONCOM", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Internal Use", "Checktable": null}, "VLINE": {"Key": false, "Data Element": "SYST_VLINE", "Domain": "SYCHAR01", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Vertical Line for List", "Checktable": null}, "WINSL": {"Key": false, "Data Element": "SYST_WINSL", "Domain": "SYCHAR79", "DataType": "CHAR", "Length": "79", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "STACO": {"Key": false, "Data Element": "SYST_STACO", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: First List Column Displayed", "Checktable": null}, "STARO": {"Key": false, "Data Element": "SYST_STARO", "Domain": "SYST_LONG", "DataType": "INT4", "Length": "10", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Top List Row Displayed", "Checktable": null}, "DATAR": {"Key": false, "Data Element": "SYST_DATAR", "Domain": "SYST_FLAG", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Highlighted Input in Dynpro Field", "Checktable": null}, "HOST": {"Key": false, "Data Element": "SYST_HOST", "Domain": "HOST_ID", "DataType": "CHAR", "Length": "32", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Name of Current Application Server", "Checktable": null}, "LOCDB": {"Key": false, "Data Element": "SYST_LOCDB", "Domain": "SYST_FLAG", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "LOCOP": {"Key": false, "Data Element": "SYST_LOCOP", "Domain": "SYST_FLAG", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Obsolete", "Checktable": null}, "DATLO": {"Key": false, "Data Element": "SYST_DATLO", "Domain": "SYDATS", "DataType": "DATS", "Length": "8", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Local Date of Current User", "Checktable": null}, "TIMLO": {"Key": false, "Data Element": "SYST_TIMLO", "Domain": "SYTIME", "DataType": "TIMS", "Length": "6", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Local Time of Current User", "Checktable": null}, "ZONLO": {"Key": false, "Data Element": "SYST_ZONLO", "Domain": "SYCHAR06", "DataType": "CHAR", "Length": "6", "DecimalPlaces": "0", "Short Description": "ABAP System Field: Time Zone of Current User", "Checktable": null}}
+{
+  "description": "ABAP System Fields",
+  "INDEX": {
+    "Key": false,
+    "Data Element": "SYST_INDEX",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Loop Index",
+    "Checktable": null
+  },
+  "PAGNO": {
+    "Key": false,
+    "Data Element": "SYST_PAGNO",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current List Page",
+    "Checktable": null
+  },
+  "TABIX": {
+    "Key": false,
+    "Data Element": "SYST_TABIX",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Row Index of Internal Tables",
+    "Checktable": null
+  },
+  "TFILL": {
+    "Key": false,
+    "Data Element": "SYST_TFILL",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Number of Rows in Internal Tables",
+    "Checktable": null
+  },
+  "TLOPC": {
+    "Key": false,
+    "Data Element": "SYST_TLOPC",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "TMAXL": {
+    "Key": false,
+    "Data Element": "SYST_TMAXL",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "TOCCU": {
+    "Key": false,
+    "Data Element": "SYST_TOCCU",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "TTABC": {
+    "Key": false,
+    "Data Element": "SYST_TTABC",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "TSTIS": {
+    "Key": false,
+    "Data Element": "SYST_TSTIS",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "TTABI": {
+    "Key": false,
+    "Data Element": "SYST_TTABI",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "DBCNT": {
+    "Key": false,
+    "Data Element": "SYST_DBCNT",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Edited Database Table Rows",
+    "Checktable": null
+  },
+  "FDPOS": {
+    "Key": false,
+    "Data Element": "SYST_FDPOS",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Occurrence in Byte or Character String",
+    "Checktable": null
+  },
+  "COLNO": {
+    "Key": false,
+    "Data Element": "SYST_COLNO",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current Column in Current List",
+    "Checktable": null
+  },
+  "LINCT": {
+    "Key": false,
+    "Data Element": "SYST_LINCT",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Page Length of Current List",
+    "Checktable": null
+  },
+  "LINNO": {
+    "Key": false,
+    "Data Element": "SYST_LINNO",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current Line in Current List",
+    "Checktable": null
+  },
+  "LINSZ": {
+    "Key": false,
+    "Data Element": "SYST_LINSZ",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Line Width of Current List",
+    "Checktable": null
+  },
+  "PAGCT": {
+    "Key": false,
+    "Data Element": "SYST_PAGCT",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "MACOL": {
+    "Key": false,
+    "Data Element": "SYST_MACOL",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Columns on Left Margin of Print List",
+    "Checktable": null
+  },
+  "MAROW": {
+    "Key": false,
+    "Data Element": "SYST_MAROW",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Columns at Top of Print List",
+    "Checktable": null
+  },
+  "TLENG": {
+    "Key": false,
+    "Data Element": "SYST_TLENG",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Row Length of Internal Table",
+    "Checktable": null
+  },
+  "SFOFF": {
+    "Key": false,
+    "Data Element": "SYST_SFOFF",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "WILLI": {
+    "Key": false,
+    "Data Element": "SYST_WILLI",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "LILLI": {
+    "Key": false,
+    "Data Element": "SYST_LILLI",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Selected List Line",
+    "Checktable": null
+  },
+  "SUBRC": {
+    "Key": false,
+    "Data Element": "SYST_SUBRC",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Return Code of ABAP Statements",
+    "Checktable": null
+  },
+  "FLENG": {
+    "Key": false,
+    "Data Element": "SYST_FLENG",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "CUCOL": {
+    "Key": false,
+    "Data Element": "SYST_CUCOL",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Horizontal Cursor Position in PAI",
+    "Checktable": null
+  },
+  "CUROW": {
+    "Key": false,
+    "Data Element": "SYST_CUROW",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Vertical Cursor Position in PAI",
+    "Checktable": null
+  },
+  "LSIND": {
+    "Key": false,
+    "Data Element": "SYST_LSIND",
+    "Domain": "SYST_BYTE",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current List Level",
+    "Checktable": null
+  },
+  "LISTI": {
+    "Key": false,
+    "Data Element": "SYST_LISTI",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: List Level of Displayed List",
+    "Checktable": null
+  },
+  "STEPL": {
+    "Key": false,
+    "Data Element": "SYST_STEPL",
+    "Domain": "SYST_BYTE",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current Step Loop or Table Control Line",
+    "Checktable": null
+  },
+  "TPAGI": {
+    "Key": false,
+    "Data Element": "SYST_TPAGI",
+    "Domain": "SYST_BYTE",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "WINX1": {
+    "Key": false,
+    "Data Element": "SYST_WINX1",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "WINY1": {
+    "Key": false,
+    "Data Element": "SYST_WINY1",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "WINX2": {
+    "Key": false,
+    "Data Element": "SYST_WINX2",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "WINY2": {
+    "Key": false,
+    "Data Element": "SYST_WINY2",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "WINCO": {
+    "Key": false,
+    "Data Element": "SYST_WINCO",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "WINRO": {
+    "Key": false,
+    "Data Element": "SYST_WINRO",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "WINDI": {
+    "Key": false,
+    "Data Element": "SYST_WINDI",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "SROWS": {
+    "Key": false,
+    "Data Element": "SYST_SROWS",
+    "Domain": "SYST_BYTE",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Number of Screen Rows",
+    "Checktable": null
+  },
+  "SCOLS": {
+    "Key": false,
+    "Data Element": "SYST_SCOLS",
+    "Domain": "SYST_BYTE",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Number of Columns on Screen",
+    "Checktable": null
+  },
+  "LOOPC": {
+    "Key": false,
+    "Data Element": "SYST_LOOPC",
+    "Domain": "SYST_BYTE",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Visible Lines of Step Loop",
+    "Checktable": null
+  },
+  "FOLEN": {
+    "Key": false,
+    "Data Element": "SYST_FOLEN",
+    "Domain": "SYST_BYTE",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "FODEC": {
+    "Key": false,
+    "Data Element": "SYST_FODEC",
+    "Domain": "SYST_BYTE",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "TZONE": {
+    "Key": false,
+    "Data Element": "SYST_TZONE",
+    "Domain": "SYST_SHORT",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Time Zone",
+    "Checktable": null
+  },
+  "DAYST": {
+    "Key": false,
+    "Data Element": "SYST_DAYST",
+    "Domain": "SYST_FLAG",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Daylight Saving Time",
+    "Checktable": null
+  },
+  "FTYPE": {
+    "Key": false,
+    "Data Element": "SYST_FTYPE",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "APPLI": {
+    "Key": false,
+    "Data Element": "SYST_APPLI",
+    "Domain": "SYHEX02",
+    "DataType": "RAW",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "FDAYW": {
+    "Key": false,
+    "Data Element": "SYST_FDAYW",
+    "Domain": "SYBIN1",
+    "DataType": "INT1",
+    "Length": "3",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Factory Calendar Weekday",
+    "Checktable": null
+  },
+  "CCURS": {
+    "Key": false,
+    "Data Element": "SYST_CCURS",
+    "Domain": "SYPACK05",
+    "DataType": "DEC",
+    "Length": "9",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "CCURT": {
+    "Key": false,
+    "Data Element": "SYST_CCURT",
+    "Domain": "SYPACK05",
+    "DataType": "DEC",
+    "Length": "9",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "DEBUG": {
+    "Key": false,
+    "Data Element": "SYST_DEBUG",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "CTYPE": {
+    "Key": false,
+    "Data Element": "SYST_CTYPE",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "INPUT": {
+    "Key": false,
+    "Data Element": "SYST_INPUT",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "LANGU": {
+    "Key": false,
+    "Data Element": "SYST_LANGU",
+    "Domain": "SYLANGU",
+    "DataType": "LANG",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Language Key of Text Environment",
+    "Checktable": null
+  },
+  "MODNO": {
+    "Key": false,
+    "Data Element": "SYST_MODNO",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Index of External Mode",
+    "Checktable": null
+  },
+  "BATCH": {
+    "Key": false,
+    "Data Element": "SYST_BATCH",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Background Processing Active",
+    "Checktable": null
+  },
+  "BINPT": {
+    "Key": false,
+    "Data Element": "SYST_BINPT",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Batch Input Processing Active",
+    "Checktable": null
+  },
+  "CALLD": {
+    "Key": false,
+    "Data Element": "SYST_CALLD",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Call Mode of Current ABAP Program",
+    "Checktable": null
+  },
+  "DYNNR": {
+    "Key": false,
+    "Data Element": "SYST_DYNNR",
+    "Domain": "SYCHAR04",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current Dynpro Number",
+    "Checktable": null
+  },
+  "DYNGR": {
+    "Key": false,
+    "Data Element": "SYST_DYNGR",
+    "Domain": "SYCHAR04",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Screen Group of Current Dynpro",
+    "Checktable": null
+  },
+  "NEWPA": {
+    "Key": false,
+    "Data Element": "SYST_NEWPA",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "PRI40": {
+    "Key": false,
+    "Data Element": "SYST_PRI40",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "RSTRT": {
+    "Key": false,
+    "Data Element": "SYST_RSTRT",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "WTITL": {
+    "Key": false,
+    "Data Element": "SYST_WTITL",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Standard Page Header Flag",
+    "Checktable": null
+  },
+  "CPAGE": {
+    "Key": false,
+    "Data Element": "SYST_CPAGE",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current Page Number of List",
+    "Checktable": null
+  },
+  "DBNAM": {
+    "Key": false,
+    "Data Element": "SYST_DBNAM",
+    "Domain": "LDBNAME",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Logical Database of Current Program",
+    "Checktable": null
+  },
+  "MANDT": {
+    "Key": false,
+    "Data Element": "SYST_MANDT",
+    "Domain": "MANDT",
+    "DataType": "CLNT",
+    "Length": "3",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Client ID of Current User",
+    "Checktable": "*"
+  },
+  "PREFX": {
+    "Key": false,
+    "Data Element": "SYST_PREFX",
+    "Domain": "SYCHAR03",
+    "DataType": "CHAR",
+    "Length": "3",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "FMKEY": {
+    "Key": false,
+    "Data Element": "SYST_FMKEY",
+    "Domain": "SYCHAR03",
+    "DataType": "CHAR",
+    "Length": "3",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PEXPI": {
+    "Key": false,
+    "Data Element": "SYST_PEXPI",
+    "Domain": "SYNUM01",
+    "DataType": "NUMC",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PRINI": {
+    "Key": false,
+    "Data Element": "SYST_PRINI",
+    "Domain": "SYNUM01",
+    "DataType": "NUMC",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "PRIMM": {
+    "Key": false,
+    "Data Element": "SYST_PRIMM",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PRREL": {
+    "Key": false,
+    "Data Element": "SYST_PRREL",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PLAYO": {
+    "Key": false,
+    "Data Element": "SYST_PLAYO",
+    "Domain": "SYCHAR05",
+    "DataType": "CHAR",
+    "Length": "5",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "PRBIG": {
+    "Key": false,
+    "Data Element": "SYST_PRBIG",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PLAYP": {
+    "Key": false,
+    "Data Element": "SYST_PLAYP",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "PRNEW": {
+    "Key": false,
+    "Data Element": "SYST_PRNEW",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PRLOG": {
+    "Key": false,
+    "Data Element": "SYST_PRLOG",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "PDEST": {
+    "Key": false,
+    "Data Element": "SYST_PDEST",
+    "Domain": "RSPOPNAME",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": "*"
+  },
+  "PLIST": {
+    "Key": false,
+    "Data Element": "SYST_PLIST",
+    "Domain": "SYCHAR12",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PAUTH": {
+    "Key": false,
+    "Data Element": "SYST_PAUTH",
+    "Domain": "SYNUM02",
+    "DataType": "NUMC",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "PRDSN": {
+    "Key": false,
+    "Data Element": "SYST_PRDSN",
+    "Domain": "SYCHAR06",
+    "DataType": "CHAR",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PNWPA": {
+    "Key": false,
+    "Data Element": "SYST_PNWPA",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "CALLR": {
+    "Key": false,
+    "Data Element": "SYST_CALLR",
+    "Domain": "SYCHAR08",
+    "DataType": "CHAR",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Start Context of Spool Action",
+    "Checktable": null
+  },
+  "REPI2": {
+    "Key": false,
+    "Data Element": "SYST_REPI2",
+    "Domain": "PROGRAMM",
+    "DataType": "CHAR",
+    "Length": "40",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": "*"
+  },
+  "RTITL": {
+    "Key": false,
+    "Data Element": "SYST_RTITL",
+    "Domain": "SYCHAR70",
+    "DataType": "CHAR",
+    "Length": "70",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PRREC": {
+    "Key": false,
+    "Data Element": "SYST_PRREC",
+    "Domain": "SYCHAR12",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PRTXT": {
+    "Key": false,
+    "Data Element": "SYST_PRTXT",
+    "Domain": "SYCHAR68K",
+    "DataType": "CHAR",
+    "Length": "68",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "PRABT": {
+    "Key": false,
+    "Data Element": "SYST_PRABT",
+    "Domain": "SYCHAR12K",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "LPASS": {
+    "Key": false,
+    "Data Element": "SYST_LPASS",
+    "Domain": "SYCHAR04",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "NRPAG": {
+    "Key": false,
+    "Data Element": "SYST_NRPAG",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "PAART": {
+    "Key": false,
+    "Data Element": "SYST_PAART",
+    "Domain": "RSPOPAPER",
+    "DataType": "CHAR",
+    "Length": "16",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": "*"
+  },
+  "PRCOP": {
+    "Key": false,
+    "Data Element": "SYST_PRCOP",
+    "Domain": "SYNUM03",
+    "DataType": "NUMC",
+    "Length": "3",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "BATZS": {
+    "Key": false,
+    "Data Element": "SYST_BATZS",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "BSPLD": {
+    "Key": false,
+    "Data Element": "SYST_BSPLD",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "BREP4": {
+    "Key": false,
+    "Data Element": "SYST_BREP4",
+    "Domain": "SYCHAR04",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "BATZO": {
+    "Key": false,
+    "Data Element": "SYST_BATZO",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "BATZD": {
+    "Key": false,
+    "Data Element": "SYST_BATZD",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "BATZW": {
+    "Key": false,
+    "Data Element": "SYST_BATZW",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "BATZM": {
+    "Key": false,
+    "Data Element": "SYST_BATZM",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "CTABL": {
+    "Key": false,
+    "Data Element": "SYST_CTABL",
+    "Domain": "SYCHAR04",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "DBSYS": {
+    "Key": false,
+    "Data Element": "SYST_DBSYS",
+    "Domain": "SYCHAR10",
+    "DataType": "CHAR",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Central Database System",
+    "Checktable": null
+  },
+  "DCSYS": {
+    "Key": false,
+    "Data Element": "SYST_DCSYS",
+    "Domain": "SYCHAR04",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "MACDB": {
+    "Key": false,
+    "Data Element": "SYST_MACDB",
+    "Domain": "SYCHAR04",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "SYSID": {
+    "Key": false,
+    "Data Element": "SYST_SYSID",
+    "Domain": "SYCHAR08",
+    "DataType": "CHAR",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Name of SAP System",
+    "Checktable": null
+  },
+  "OPSYS": {
+    "Key": false,
+    "Data Element": "SYST_OPSYS",
+    "Domain": "SYOPSYS",
+    "DataType": "CHAR",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Operating System of Application Server",
+    "Checktable": null
+  },
+  "PFKEY": {
+    "Key": false,
+    "Data Element": "SYST_PFKEY",
+    "Domain": "GUI_STATUS",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current GUI Status",
+    "Checktable": null
+  },
+  "SAPRL": {
+    "Key": false,
+    "Data Element": "SYST_SAPRL",
+    "Domain": "SYCHAR04",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: SAP System Release",
+    "Checktable": null
+  },
+  "TCODE": {
+    "Key": false,
+    "Data Element": "SYST_TCODE",
+    "Domain": "TCODE",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current Transaction Code",
+    "Checktable": "*"
+  },
+  "UCOMM": {
+    "Key": false,
+    "Data Element": "SYST_UCOMM",
+    "Domain": "SYCHAR70",
+    "DataType": "CHAR",
+    "Length": "70",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: PAI-Triggering Function Code",
+    "Checktable": null
+  },
+  "CFWAE": {
+    "Key": false,
+    "Data Element": "SYST_CFWAE",
+    "Domain": "SYCUKY",
+    "DataType": "CUKY",
+    "Length": "5",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "CHWAE": {
+    "Key": false,
+    "Data Element": "SYST_CHWAE",
+    "Domain": "SYCUKY",
+    "DataType": "CUKY",
+    "Length": "5",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "SPONO": {
+    "Key": false,
+    "Data Element": "SYST_SPONO",
+    "Domain": "SYSPONO",
+    "DataType": "NUMC",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Spool Number in Spool Output",
+    "Checktable": null
+  },
+  "SPONR": {
+    "Key": false,
+    "Data Element": "SYST_SPONR",
+    "Domain": "SYSPONO",
+    "DataType": "NUMC",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "WAERS": {
+    "Key": false,
+    "Data Element": "SYST_WAERS",
+    "Domain": "SYCUKY",
+    "DataType": "CUKY",
+    "Length": "5",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "CDATE": {
+    "Key": false,
+    "Data Element": "SYST_CDATE",
+    "Domain": "SYDATS",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "DATUM": {
+    "Key": false,
+    "Data Element": "SYST_DATUM",
+    "Domain": "SYDATS",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current Date of Application Server",
+    "Checktable": null
+  },
+  "SLSET": {
+    "Key": false,
+    "Data Element": "SYST_SLSET",
+    "Domain": "SYCHAR14",
+    "DataType": "CHAR",
+    "Length": "14",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Selection Screen Variant Used",
+    "Checktable": null
+  },
+  "SUBTY": {
+    "Key": false,
+    "Data Element": "SYST_SUBTY",
+    "Domain": "SYHEX01",
+    "DataType": "RAW",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "SUBCS": {
+    "Key": false,
+    "Data Element": "SYST_SUBCS",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "GROUP": {
+    "Key": false,
+    "Data Element": "SYST_GROUP",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "FFILE": {
+    "Key": false,
+    "Data Element": "SYST_FFILE",
+    "Domain": "SYCHAR08",
+    "DataType": "CHAR",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "UZEIT": {
+    "Key": false,
+    "Data Element": "SYST_UZEIT",
+    "Domain": "SYTIME",
+    "DataType": "TIMS",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Current Time of Application Server",
+    "Checktable": null
+  },
+  "DSNAM": {
+    "Key": false,
+    "Data Element": "SYST_DSNAM",
+    "Domain": "SYCHAR08",
+    "DataType": "CHAR",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "TABID": {
+    "Key": false,
+    "Data Element": "SYST_TABID",
+    "Domain": "SYCHAR08",
+    "DataType": "CHAR",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "TFDSN": {
+    "Key": false,
+    "Data Element": "SYST_TFDSN",
+    "Domain": "SYCHAR08",
+    "DataType": "CHAR",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "UNAME": {
+    "Key": false,
+    "Data Element": "SYST_UNAME",
+    "Domain": "SYCHAR12",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Name of Current User",
+    "Checktable": null
+  },
+  "LSTAT": {
+    "Key": false,
+    "Data Element": "SYST_LSTAT",
+    "Domain": "SYCHAR16",
+    "DataType": "CHAR",
+    "Length": "16",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "ABCDE": {
+    "Key": false,
+    "Data Element": "SYST_ABCDE",
+    "Domain": "SYCHAR26",
+    "DataType": "CHAR",
+    "Length": "26",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Latin Alphabet",
+    "Checktable": null
+  },
+  "MARKY": {
+    "Key": false,
+    "Data Element": "SYST_MARKY",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "SFNAM": {
+    "Key": false,
+    "Data Element": "SYST_SFNAM",
+    "Domain": "SYCHAR30",
+    "DataType": "CHAR",
+    "Length": "30",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "TNAME": {
+    "Key": false,
+    "Data Element": "SYST_TNAME",
+    "Domain": "SYCHAR30",
+    "DataType": "CHAR",
+    "Length": "30",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "MSGLI": {
+    "Key": false,
+    "Data Element": "SYST_MSGLI",
+    "Domain": "SYCHAR60",
+    "DataType": "CHAR",
+    "Length": "60",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "TITLE": {
+    "Key": false,
+    "Data Element": "SYST_TITLE",
+    "Domain": "SYCHAR70",
+    "DataType": "CHAR",
+    "Length": "70",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Title Line Content of Current Dynpro",
+    "Checktable": null
+  },
+  "ENTRY": {
+    "Key": false,
+    "Data Element": "SYST_ENTRY",
+    "Domain": "SYCHAR72",
+    "DataType": "CHAR",
+    "Length": "72",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "LISEL": {
+    "Key": false,
+    "Data Element": "SYST_LISEL",
+    "Domain": "SYCHAR255",
+    "DataType": "CHAR",
+    "Length": "255",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Content of Selected List Line",
+    "Checktable": null
+  },
+  "ULINE": {
+    "Key": false,
+    "Data Element": "SYST_ULINE",
+    "Domain": "SYCHAR255",
+    "DataType": "CHAR",
+    "Length": "255",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Horizontal Line for List",
+    "Checktable": null
+  },
+  "XCODE": {
+    "Key": false,
+    "Data Element": "SYST_XCODE",
+    "Domain": "SYCHAR70",
+    "DataType": "CHAR",
+    "Length": "70",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "CPROG": {
+    "Key": false,
+    "Data Element": "SYST_CPROG",
+    "Domain": "PROGRAMM",
+    "DataType": "CHAR",
+    "Length": "40",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Calling Program",
+    "Checktable": "*"
+  },
+  "XPROG": {
+    "Key": false,
+    "Data Element": "SYST_XPROG",
+    "Domain": "PROGRAMM",
+    "DataType": "CHAR",
+    "Length": "40",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": "*"
+  },
+  "XFORM": {
+    "Key": false,
+    "Data Element": "SYST_XFORM",
+    "Domain": "SYCHAR30",
+    "DataType": "CHAR",
+    "Length": "30",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "LDBPG": {
+    "Key": false,
+    "Data Element": "SYST_LDBPG",
+    "Domain": "PROGRAMM",
+    "DataType": "CHAR",
+    "Length": "40",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Database Program of Logical Database",
+    "Checktable": "*"
+  },
+  "TVAR0": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR1": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR2": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR3": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR4": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR5": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR6": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR7": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR8": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "TVAR9": {
+    "Key": false,
+    "Data Element": "SYST_TVAR",
+    "Domain": "SYCHAR20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Text for Placeholders in List Headers",
+    "Checktable": null
+  },
+  "MSGID": {
+    "Key": false,
+    "Data Element": "SYST_MSGID",
+    "Domain": "ARBGB",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Message ID",
+    "Checktable": "*"
+  },
+  "MSGTY": {
+    "Key": false,
+    "Data Element": "SYST_MSGTY",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Message Type",
+    "Checktable": null
+  },
+  "MSGNO": {
+    "Key": false,
+    "Data Element": "SYST_MSGNO",
+    "Domain": "SYMSGNO",
+    "DataType": "NUMC",
+    "Length": "3",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Message Number",
+    "Checktable": null
+  },
+  "MSGV1": {
+    "Key": false,
+    "Data Element": "SYST_MSGV",
+    "Domain": "SYCHAR50",
+    "DataType": "CHAR",
+    "Length": "50",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Message Variable",
+    "Checktable": null
+  },
+  "MSGV2": {
+    "Key": false,
+    "Data Element": "SYST_MSGV",
+    "Domain": "SYCHAR50",
+    "DataType": "CHAR",
+    "Length": "50",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Message Variable",
+    "Checktable": null
+  },
+  "MSGV3": {
+    "Key": false,
+    "Data Element": "SYST_MSGV",
+    "Domain": "SYCHAR50",
+    "DataType": "CHAR",
+    "Length": "50",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Message Variable",
+    "Checktable": null
+  },
+  "MSGV4": {
+    "Key": false,
+    "Data Element": "SYST_MSGV",
+    "Domain": "SYCHAR50",
+    "DataType": "CHAR",
+    "Length": "50",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Message Variable",
+    "Checktable": null
+  },
+  "ONCOM": {
+    "Key": false,
+    "Data Element": "SYST_ONCOM",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Internal Use",
+    "Checktable": null
+  },
+  "VLINE": {
+    "Key": false,
+    "Data Element": "SYST_VLINE",
+    "Domain": "SYCHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Vertical Line for List",
+    "Checktable": null
+  },
+  "WINSL": {
+    "Key": false,
+    "Data Element": "SYST_WINSL",
+    "Domain": "SYCHAR79",
+    "DataType": "CHAR",
+    "Length": "79",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "STACO": {
+    "Key": false,
+    "Data Element": "SYST_STACO",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: First List Column Displayed",
+    "Checktable": null
+  },
+  "STARO": {
+    "Key": false,
+    "Data Element": "SYST_STARO",
+    "Domain": "SYST_LONG",
+    "DataType": "INT4",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Top List Row Displayed",
+    "Checktable": null
+  },
+  "DATAR": {
+    "Key": false,
+    "Data Element": "SYST_DATAR",
+    "Domain": "SYST_FLAG",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Highlighted Input in Dynpro Field",
+    "Checktable": null
+  },
+  "HOST": {
+    "Key": false,
+    "Data Element": "SYST_HOST",
+    "Domain": "HOST_ID",
+    "DataType": "CHAR",
+    "Length": "32",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Name of Current Application Server",
+    "Checktable": null
+  },
+  "LOCDB": {
+    "Key": false,
+    "Data Element": "SYST_LOCDB",
+    "Domain": "SYST_FLAG",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "LOCOP": {
+    "Key": false,
+    "Data Element": "SYST_LOCOP",
+    "Domain": "SYST_FLAG",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Obsolete",
+    "Checktable": null
+  },
+  "DATLO": {
+    "Key": false,
+    "Data Element": "SYST_DATLO",
+    "Domain": "SYDATS",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Local Date of Current User",
+    "Checktable": null
+  },
+  "TIMLO": {
+    "Key": false,
+    "Data Element": "SYST_TIMLO",
+    "Domain": "SYTIME",
+    "DataType": "TIMS",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Local Time of Current User",
+    "Checktable": null
+  },
+  "ZONLO": {
+    "Key": false,
+    "Data Element": "SYST_ZONLO",
+    "Domain": "SYCHAR06",
+    "DataType": "CHAR",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "ABAP System Field: Time Zone of Current User",
+    "Checktable": null
+  }
+}

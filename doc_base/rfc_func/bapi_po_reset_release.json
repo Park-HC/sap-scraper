@@ -1,1 +1,123 @@
-{"description": "Cancel Release of Purchase Orders", "Exporting": {"REL_STATUS_NEW": {"Typing": "TYPE", "Associated Type": "BAPIMMPARA-REL_STATUS", "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Previous Release Status"}, "REL_INDICATOR_NEW": {"Typing": "TYPE", "Associated Type": "BAPIMMPARA-PO_REL_IND", "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Previous Release Indicator"}}, "Importing": {"PURCHASEORDER": {"Typing": "TYPE", "Associated Type": "BAPIMMPARA-PO_NUMBER", "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Purchase Order Number"}, "PO_REL_CODE": {"Typing": "TYPE", "Associated Type": "BAPIMMPARA-PO_REL_COD", "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Release Code"}, "USE_EXCEPTIONS": {"Typing": "TYPE", "Associated Type": "BAPIMMPARA-SELECTION", "Default value": "'X'", "Optional": true, "Pass Value": true, "Short text": "Set Exceptions and Issue Error Messages"}}, "Tables": {"RETURN": {"Typing": "TYPE", "Associated Type": "BAPIRETURN", "Default value": null, "Optional": true, "Pass Value": true, "Short text": "Return Messages"}}, "Exception": {"AUTHORITY_CHECK_FAIL": {"Typing": "TYPE", "Associated Type": null, "Default value": null, "Optional": false, "Pass Value": true, "Short text": "No Authorization to Release"}, "DOCUMENT_NOT_FOUND": {"Typing": "TYPE", "Associated Type": null, "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Purchase order does not exist"}, "ENQUEUE_FAIL": {"Typing": "TYPE", "Associated Type": null, "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Purchase Order Blocked"}, "PREREQUISITE_FAIL": {"Typing": "TYPE", "Associated Type": null, "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Release Prerequisite Not Satisfied"}, "RELEASE_ALREADY_POSTED": {"Typing": "TYPE", "Associated Type": null, "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Release Already Cancelled"}, "RESPONSIBILITY_FAIL": {"Typing": "TYPE", "Associated Type": null, "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Responsibility for Release Missing"}, "NO_RELEASE_ALREADY": {"Typing": "TYPE", "Associated Type": null, "Default value": null, "Optional": false, "Pass Value": true, "Short text": "Purchase Requisition Not Yet Released"}, "NO_NEW_RELEASE_INDICATOR": {"Typing": "TYPE", "Associated Type": null, "Default value": null, "Optional": false, "Pass Value": true, "Short text": "No New Release Status Determinable"}}}
+{
+  "description": "Cancel Release of Purchase Orders",
+  "Exporting": {
+    "REL_STATUS_NEW": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-REL_STATUS",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Previous Release Status"
+    },
+    "REL_INDICATOR_NEW": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-PO_REL_IND",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Previous Release Indicator"
+    }
+  },
+  "Importing": {
+    "PURCHASEORDER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-PO_NUMBER",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Purchase Order Number"
+    },
+    "PO_REL_CODE": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-PO_REL_COD",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Release Code"
+    },
+    "USE_EXCEPTIONS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "'X'",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Set Exceptions and Issue Error Messages"
+    }
+  },
+  "Tables": {
+    "RETURN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRETURN",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Return Messages"
+    }
+  },
+  "Exception": {
+    "AUTHORITY_CHECK_FAIL": {
+      "Typing": "TYPE",
+      "Associated Type": null,
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "No Authorization to Release"
+    },
+    "DOCUMENT_NOT_FOUND": {
+      "Typing": "TYPE",
+      "Associated Type": null,
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Purchase order does not exist"
+    },
+    "ENQUEUE_FAIL": {
+      "Typing": "TYPE",
+      "Associated Type": null,
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Purchase Order Blocked"
+    },
+    "PREREQUISITE_FAIL": {
+      "Typing": "TYPE",
+      "Associated Type": null,
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Release Prerequisite Not Satisfied"
+    },
+    "RELEASE_ALREADY_POSTED": {
+      "Typing": "TYPE",
+      "Associated Type": null,
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Release Already Cancelled"
+    },
+    "RESPONSIBILITY_FAIL": {
+      "Typing": "TYPE",
+      "Associated Type": null,
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Responsibility for Release Missing"
+    },
+    "NO_RELEASE_ALREADY": {
+      "Typing": "TYPE",
+      "Associated Type": null,
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Purchase Requisition Not Yet Released"
+    },
+    "NO_NEW_RELEASE_INDICATOR": {
+      "Typing": "TYPE",
+      "Associated Type": null,
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "No New Release Status Determinable"
+    }
+  }
+}

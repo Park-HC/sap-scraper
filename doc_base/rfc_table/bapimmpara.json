@@ -1,1 +1,103 @@
-{"description": "Transfer Structure: Interface Parameters: Purchasing", "PREQ_NAME": {"Key": false, "Data Element": "AFNAM", "Domain": "AFNAM", "DataType": "CHAR", "Length": "12", "DecimalPlaces": "0", "Short Description": "Name of requisitioner/requester", "Checktable": null}, "PREQ_DATE": {"Key": false, "Data Element": "BADAT", "Domain": "DATUM", "DataType": "DATS", "Length": "8", "DecimalPlaces": "0", "Short Description": "Requisition (request) date", "Checktable": null}, "SELECTION": {"Key": false, "Data Element": "SELKZ", "Domain": "SELKZ", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "Selection flag", "Checktable": null}, "REL_GROUP": {"Key": false, "Data Element": "FRGGR", "Domain": "FRGGR", "DataType": "CHAR", "Length": "2", "DecimalPlaces": "0", "Short Description": "Release group", "Checktable": "*"}, "REL_CODE": {"Key": false, "Data Element": "FRGAB", "Domain": "FRGAB", "DataType": "CHAR", "Length": "2", "DecimalPlaces": "0", "Short Description": "Purchase requisition release code", "Checktable": "*"}, "REL_STATUS": {"Key": false, "Data Element": "FRGZU", "Domain": "FRGZU", "DataType": "CHAR", "Length": "8", "DecimalPlaces": "0", "Short Description": "Release status", "Checktable": null}, "PO_REL_COD": {"Key": false, "Data Element": "FRGCO", "Domain": "FRGCO", "DataType": "CHAR", "Length": "2", "DecimalPlaces": "0", "Short Description": "Release code", "Checktable": "*"}, "PO_NUMBER": {"Key": false, "Data Element": "EBELN", "Domain": "EBELN", "DataType": "CHAR", "Length": "10", "DecimalPlaces": "0", "Short Description": "Purchasing Document Number", "Checktable": "*"}, "PO_REL_IND": {"Key": false, "Data Element": "FRGKE", "Domain": "FRGKE", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "Release Indicator: Purchasing Document", "Checktable": "*"}, "REL_IND": {"Key": false, "Data Element": "FRGKZ", "Domain": "FRGKZ", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "Release Indicator", "Checktable": "*"}}
+{
+  "description": "Transfer Structure: Interface Parameters: Purchasing",
+  "PREQ_NAME": {
+    "Key": false,
+    "Data Element": "AFNAM",
+    "Domain": "AFNAM",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "Name of requisitioner/requester",
+    "Checktable": null
+  },
+  "PREQ_DATE": {
+    "Key": false,
+    "Data Element": "BADAT",
+    "Domain": "DATUM",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "Requisition (request) date",
+    "Checktable": null
+  },
+  "SELECTION": {
+    "Key": false,
+    "Data Element": "SELKZ",
+    "Domain": "SELKZ",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Selection flag",
+    "Checktable": null
+  },
+  "REL_GROUP": {
+    "Key": false,
+    "Data Element": "FRGGR",
+    "Domain": "FRGGR",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release group",
+    "Checktable": "*"
+  },
+  "REL_CODE": {
+    "Key": false,
+    "Data Element": "FRGAB",
+    "Domain": "FRGAB",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Purchase requisition release code",
+    "Checktable": "*"
+  },
+  "REL_STATUS": {
+    "Key": false,
+    "Data Element": "FRGZU",
+    "Domain": "FRGZU",
+    "DataType": "CHAR",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "Release status",
+    "Checktable": null
+  },
+  "PO_REL_COD": {
+    "Key": false,
+    "Data Element": "FRGCO",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code",
+    "Checktable": "*"
+  },
+  "PO_NUMBER": {
+    "Key": false,
+    "Data Element": "EBELN",
+    "Domain": "EBELN",
+    "DataType": "CHAR",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "Purchasing Document Number",
+    "Checktable": "*"
+  },
+  "PO_REL_IND": {
+    "Key": false,
+    "Data Element": "FRGKE",
+    "Domain": "FRGKE",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Release Indicator: Purchasing Document",
+    "Checktable": "*"
+  },
+  "REL_IND": {
+    "Key": false,
+    "Data Element": "FRGKZ",
+    "Domain": "FRGKZ",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Release Indicator",
+    "Checktable": "*"
+  }
+}
