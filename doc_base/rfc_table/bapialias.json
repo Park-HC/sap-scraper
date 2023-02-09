@@ -1,0 +1,1 @@
+{"description": "User Name Alias", "USERALIAS": {"Key": false, "Data Element": "USALIAS", "Domain": "USALIAS", "DataType": "CHAR", "Length": "40", "DecimalPlaces": "0", "Short Description": "Internet user alias", "Checktable": null}}

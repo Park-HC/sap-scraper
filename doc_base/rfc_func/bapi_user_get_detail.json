@@ -1,0 +1,305 @@
+{
+  "description": "Read User Details",
+  "Exporting": {
+    "LOGONDATA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPILOGOND",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Structure with Logon Data"
+    },
+    "DEFAULTS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIDEFAUL",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Structure with User Defaults"
+    },
+    "ADDRESS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADDR3",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Address Data"
+    },
+    "COMPANY": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIUSCOMP",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Company for Company Address"
+    },
+    "SNC": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPISNCU",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Secure Network Communication Data"
+    },
+    "REF_USER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIREFUS",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "User Name of the Reference User"
+    },
+    "ALIAS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIALIAS",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "User Name Alias"
+    },
+    "UCLASS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIUCLASS",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "License-Related User Classification"
+    },
+    "LASTMODIFIED": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMODDAT",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "User: Last Change (Date and Time)"
+    },
+    "ISLOCKED": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPISLOCKD",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "User Lock"
+    },
+    "IDENTITY": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIIDENTITY",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Person Assignment of an Identity"
+    },
+    "ADMINDATA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIUSERADMIN",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "User: Administration Data"
+    }
+  },
+  "Importing": {
+    "USERNAME": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIBNAME-BAPIBNAME",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "User Name"
+    },
+    "CACHE_RESULTS": {
+      "Typing": "TYPE",
+      "Associated Type": "FLAG_X",
+      "Default value": "'X'",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Temporarily buffer results in work process"
+    }
+  },
+  "Tables": {
+    "PARAMETER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIPARAM",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Table with User Parameters"
+    },
+    "PROFILES": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIPROF",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Profiles"
+    },
+    "ACTIVITYGROUPS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIAGR",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Activity Groups"
+    },
+    "RETURN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRET2",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Return Structure"
+    },
+    "ADDTEL": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADTEL",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "BAPI Structure Telephone Numbers"
+    },
+    "ADDFAX": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADFAX",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure Fax Numbers"
+    },
+    "ADDTTX": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADTTX",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure Teletex Numbers"
+    },
+    "ADDTLX": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADTLX",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure Telex Numbers"
+    },
+    "ADDSMTP": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADSMTP",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "E-Mail Addresses BAPI Structure"
+    },
+    "ADDRML": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADRML",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Inhouse Mail BAPI Structure"
+    },
+    "ADDX400": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADX400",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure X400 Addresses"
+    },
+    "ADDRFC": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADRFC",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure RFC Addresses"
+    },
+    "ADDPRT": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADPRT",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure Printer Addresses"
+    },
+    "ADDSSF": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADSSF",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure SSF Addresses"
+    },
+    "ADDURI": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADURI",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure: URL, FTP, and so on"
+    },
+    "ADDPAG": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADPAG",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure Pager Numbers"
+    },
+    "ADDCOMREM": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPICOMREM",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure Communication Comments"
+    },
+    "PARAMETER1": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIPARAM1",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Replaces Parameter (Length 18 -> 40)"
+    },
+    "GROUPS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIGROUPS",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Transfer Structure for a List of User Groups"
+    },
+    "UCLASSSYS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIUCLASSSYS",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "System-Specific License-Related User Classification"
+    },
+    "EXTIDHEAD": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIUSEXTIDHEAD",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Header Data for External ID of a User"
+    },
+    "EXTIDPART": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIUSEXTIDPART",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Part of a Long Field for the External ID of a User"
+    },
+    "SYSTEMS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRCVSYS",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "BAPI Structure for CUA Target Systems"
+    }
+  }
+}

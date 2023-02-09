@@ -53,7 +53,7 @@ def get_function_scheme(function_name):
         for i, data in enumerate(td_data_list):
             if i < 2:
                 continue
-            if parameter_list[i] == 'Associated Type':
+            if parameter_list[i] == 'Associated Type' and data:
                 get_table_scheme(data)
 
             parameter_dict[parameter_list[i]] = data
@@ -64,4 +64,15 @@ def get_function_scheme(function_name):
         return api_parameter_dict
 
 
-pprint(get_function_scheme('bapi_goodsmvt_create'))
+# pprint(get_function_scheme('bapi_goodsmvt_create'))
+# get_function_scheme('BAPI_USER_GET_DETAIL')
+# get_function_scheme('BAPI_GOODSMVT_GETITEMS')
+# get_function_scheme('BAPI_GOODSMVT_GETDETAIL')
+get_function_scheme('BAPI_PO_UPDATE_HISTORY')
+get_function_scheme('BAPI_PO_RESET_RELEASE')
+get_function_scheme('BAPI_PO_RELEASE')
+get_function_scheme('BAPI_PO_GETITEMSREL')
+get_function_scheme('BAPI_PO_GETITEMS')
+get_function_scheme('BAPI_PO_GETDETAIL')
+get_function_scheme('BAPI_PO_GET_LIST')
+get_function_scheme('BAPI_PO_CHANGE')

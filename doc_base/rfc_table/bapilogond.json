@@ -1,0 +1,143 @@
+{
+  "description": "User: Logon Data Transfer Structure",
+  "GLTGV": {
+    "Key": false,
+    "Data Element": "XUGLTGV",
+    "Domain": "DATUM",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "User valid from",
+    "Checktable": null
+  },
+  "GLTGB": {
+    "Key": false,
+    "Data Element": "XUGLTGB",
+    "Domain": "DATUM",
+    "DataType": "DATS",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "User valid to",
+    "Checktable": null
+  },
+  "USTYP": {
+    "Key": false,
+    "Data Element": "XUUSTYP",
+    "Domain": "XUUSTYP",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "User Type",
+    "Checktable": null
+  },
+  "CLASS": {
+    "Key": false,
+    "Data Element": "XUCLASS",
+    "Domain": "XUCLASS",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "User group in user master maintenance",
+    "Checktable": "USGRP"
+  },
+  "ACCNT": {
+    "Key": false,
+    "Data Element": "XUACCNT",
+    "Domain": "XUACCNT",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "Account ID",
+    "Checktable": null
+  },
+  "TZONE": {
+    "Key": false,
+    "Data Element": "TZNZONE",
+    "Domain": "TZNZONE",
+    "DataType": "CHAR",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "Time Zone",
+    "Checktable": "TTZZ"
+  },
+  "LTIME": {
+    "Key": false,
+    "Data Element": "XULTIME",
+    "Domain": "UZEIT",
+    "DataType": "TIMS",
+    "Length": "6",
+    "DecimalPlaces": "0",
+    "Short Description": "Last Logon Time",
+    "Checktable": null
+  },
+  "BCODE": {
+    "Key": false,
+    "Data Element": "XUCODE",
+    "Domain": "XUCODE",
+    "DataType": "RAW",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "Password Hash Key",
+    "Checktable": null
+  },
+  "CODVN": {
+    "Key": false,
+    "Data Element": "XUCODEVERS",
+    "Domain": "XUCODEVERS",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Code Version of Password Hash Algorithm (Old Systems)",
+    "Checktable": null
+  },
+  "PASSCODE": {
+    "Key": false,
+    "Data Element": "PWD_SHA1",
+    "Domain": "SHA1_HASH",
+    "DataType": "RAW",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Password Hash Value (SHA1, 160 Bit)",
+    "Checktable": null
+  },
+  "CODVC": {
+    "Key": false,
+    "Data Element": "XUCODEVER2",
+    "Domain": "XUCODEVER2",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Code Version of Password Hash Algorithm (New Systems)",
+    "Checktable": null
+  },
+  "PWDSALTEDHASH": {
+    "Key": false,
+    "Data Element": "PWD_HASH_STRING",
+    "Domain": "PWD_HASH_STRING",
+    "DataType": "CHAR",
+    "Length": "255",
+    "DecimalPlaces": "0",
+    "Short Description": "Password Hash Value (Various Algorithms and Codings)",
+    "Checktable": null
+  },
+  "CODVS": {
+    "Key": false,
+    "Data Element": "XUCODEVER2",
+    "Domain": "XUCODEVER2",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Code Version of Password Hash Algorithm (New Systems)",
+    "Checktable": null
+  },
+  "SECURITY_POLICY": {
+    "Key": false,
+    "Data Element": "SECURITY_POLICY_NAME",
+    "Domain": "SECURITY_POLICY_NAME",
+    "DataType": "CHAR",
+    "Length": "40",
+    "DecimalPlaces": "0",
+    "Short Description": "Security Policy Name",
+    "Checktable": "*"
+  }
+}

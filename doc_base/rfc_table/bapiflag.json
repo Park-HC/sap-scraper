@@ -1,0 +1,1 @@
+{"description": "Indicator", "BAPIFLAG": {"Key": false, "Data Element": "CHAR1", "Domain": "CHAR1", "DataType": "CHAR", "Length": "1", "DecimalPlaces": "0", "Short Description": "Single-Character Flag", "Checktable": null}}

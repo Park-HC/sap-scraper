@@ -1,0 +1,43 @@
+{
+  "description": "User: Profile Transfer Structure",
+  "BAPIPROF": {
+    "Key": false,
+    "Data Element": "XUPROFILE",
+    "Domain": "XUPROFILE",
+    "DataType": "CHAR",
+    "Length": "12",
+    "DecimalPlaces": "0",
+    "Short Description": "Profile name",
+    "Checktable": "USR10"
+  },
+  "BAPIPTEXT": {
+    "Key": false,
+    "Data Element": "XUTEXT",
+    "Domain": "XUTEXT",
+    "DataType": "CHAR",
+    "Length": "60",
+    "DecimalPlaces": "0",
+    "Short Description": "Texts in user master/authorizations",
+    "Checktable": null
+  },
+  "BAPITYPE": {
+    "Key": false,
+    "Data Element": "XUTYP",
+    "Domain": "XUTYP",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Type of Profile (Composite or Single)",
+    "Checktable": null
+  },
+  "BAPIAKTPS": {
+    "Key": false,
+    "Data Element": "XUAKTPAS",
+    "Domain": "XUAKTPAS",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Active or maintenance version",
+    "Checktable": null
+  }
+}

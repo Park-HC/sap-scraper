@@ -1,0 +1,1 @@
+{"description": "Transfer Structure for a List of User Groups", "USERGROUP": {"Key": false, "Data Element": "XUCLASS", "Domain": "XUCLASS", "DataType": "CHAR", "Length": "12", "DecimalPlaces": "0", "Short Description": "User group in user master maintenance", "Checktable": "USGRP"}}

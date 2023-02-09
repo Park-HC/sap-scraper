@@ -1,0 +1,233 @@
+{
+  "description": "Display Purchase Order Details",
+  "Exporting": {
+    "PO_HEADER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKKOL",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "PO Header Data"
+    },
+    "PO_ADDRESS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIADDRESS",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Ordering Address Data"
+    }
+  },
+  "Importing": {
+    "PURCHASEORDER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKKO-PO_NUMBER",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Purchase Order Number"
+    },
+    "ITEMS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "'X'",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Item Data"
+    },
+    "ACCOUNT_ASSIGNMENT": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Account Assignment Data"
+    },
+    "SCHEDULES": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Schedule Lines"
+    },
+    "HISTORY": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide PO History"
+    },
+    "ITEM_TEXTS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Item Texts"
+    },
+    "HEADER_TEXTS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Header Texts"
+    },
+    "SERVICES": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Services and Limits"
+    },
+    "CONFIRMATIONS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Confirmations"
+    },
+    "SERVICE_TEXTS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Service Texts"
+    },
+    "EXTENSIONS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-SELECTION",
+      "Default value": "SPACE",
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Also Provide Customer's Own Fields"
+    }
+  },
+  "Tables": {
+    "PO_HEADER_TEXTS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKKOTX",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "PO Header Texts"
+    },
+    "PO_ITEMS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKPO",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Purchase Order Items"
+    },
+    "PO_ITEM_ACCOUNT_ASSIGNMENT": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKKN",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Account Assignment Data for Item"
+    },
+    "PO_ITEM_SCHEDULES": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKET",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Schedule Lines for Item"
+    },
+    "PO_ITEM_CONFIRMATIONS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKES",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Confirmations for Item"
+    },
+    "PO_ITEM_TEXTS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKPOTX",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Texts for Item"
+    },
+    "PO_ITEM_HISTORY": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKBE",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "PO History for Item"
+    },
+    "PO_ITEM_HISTORY_TOTALS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIEKBES",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "PO History for Item: Totals"
+    },
+    "PO_ITEM_LIMITS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIESUH",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Limits"
+    },
+    "PO_ITEM_CONTRACT_LIMITS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIESUC",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Limits with Contract Reference"
+    },
+    "PO_ITEM_SERVICES": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIESLL",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Services"
+    },
+    "PO_ITEM_SRV_ACCASS_VALUES": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIESKL",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Value/Link to Service Account Assignment"
+    },
+    "RETURN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRETURN",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Return Messages"
+    },
+    "PO_SERVICES_TEXTS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIESLLTX",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Long Texts for Service Line"
+    },
+    "EXTENSIONOUT": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIPAREX",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Reference Structure for BAPI Parameters EXTENSIONIN/EXTENSIONOUT"
+    }
+  }
+}

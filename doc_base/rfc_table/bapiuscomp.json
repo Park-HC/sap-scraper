@@ -1,0 +1,13 @@
+{
+  "description": "Company to which a user is assigned",
+  "COMPANY": {
+    "Key": false,
+    "Data Element": "USCOMP",
+    "Domain": "USCOMP",
+    "DataType": "CHAR",
+    "Length": "42",
+    "DecimalPlaces": "0",
+    "Short Description": "Company address, cross-system key",
+    "Checktable": "USCOMPANY"
+  }
+}

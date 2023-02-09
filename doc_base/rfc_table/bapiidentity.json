@@ -1,0 +1,23 @@
+{
+  "description": "Person Assignment of an Identity",
+  "IDENTITY_UUID": {
+    "Key": false,
+    "Data Element": "SUID_UUID",
+    "Domain": "SUID_UUID",
+    "DataType": "CHAR",
+    "Length": "36",
+    "DecimalPlaces": "0",
+    "Short Description": "Identity API: UUID for Identity (Char 36)",
+    "Checktable": null
+  },
+  "BPPERSON": {
+    "Key": false,
+    "Data Element": "BU_PARTNER_UUID",
+    "Domain": "BU_PARTNER_UUID",
+    "DataType": "CHAR",
+    "Length": "36",
+    "DecimalPlaces": "0",
+    "Short Description": "BP-APIs: UUID for Business Partner (Char 36)",
+    "Checktable": null
+  }
+}

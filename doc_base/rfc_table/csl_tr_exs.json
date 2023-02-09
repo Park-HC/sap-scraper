@@ -1,0 +1,1 @@
+{"description": "CSL: Data Element CSL_TR_EXT as Structure ", "TR_EXT": {"Key": false, "Data Element": "CSL_TR_EXT", "Domain": "CSL_TR_EXT", "DataType": "CHAR", "Length": "255", "DecimalPlaces": "0", "Short Description": "CSL: CSL-External Representation of a Token Reference", "Checktable": null}}

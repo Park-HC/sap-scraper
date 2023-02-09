@@ -1,0 +1,49 @@
+{
+  "description": "Display Details for Material Document",
+  "Exporting": {
+    "GOODSMVT_HEADER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_HEAD_02",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Material Document Header"
+    }
+  },
+  "Importing": {
+    "MATERIALDOCUMENT": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_HEAD_02-MAT_DOC",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Material Document Number"
+    },
+    "MATDOCUMENTYEAR": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_HEAD_02-DOC_YEAR",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Material Document Year"
+    }
+  },
+  "Tables": {
+    "GOODSMVT_ITEMS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_ITEM_SHOW",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Material Document Items"
+    },
+    "RETURN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRET2",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Return Messages"
+    }
+  }
+}

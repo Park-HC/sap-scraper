@@ -1,0 +1,119 @@
+{
+  "description": "Display Detailed List of Material Documents",
+  "Exporting": {},
+  "Importing": {},
+  "Tables": {
+    "MATERIAL_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_MATERIAL_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Material"
+    },
+    "PLANT_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_PLANT_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Plant"
+    },
+    "STGE_LOC_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_STGE_LOC_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Stor. Loc."
+    },
+    "BATCH_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_BATCH_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Batch"
+    },
+    "MOVE_TYPE_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_MOVE_TYPE_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Mvt Type"
+    },
+    "SPEC_STOCK_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_SPEC_STOCK_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Special Stock Indicator"
+    },
+    "TR_EV_TYPE_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_TR_EV_TYPE_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Trans./Event Type"
+    },
+    "PSTNG_DATE_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_PSTNG_DATE_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Posting Date"
+    },
+    "VENDOR_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_VENDOR_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for Vendor"
+    },
+    "USERNAME_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_USERNAME_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Range for User Name"
+    },
+    "PURCH_DOC_RA": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_PURCH_DOC_RA",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": false,
+      "Short text": "Range for Purchasing Document"
+    },
+    "GOODSMVT_HEADER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_HEAD_02",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Return Structure, Material Doc. Headers"
+    },
+    "GOODSMVT_ITEMS": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPI2017_GM_ITEM_SHOW",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Return Structure, Material Doc. Items"
+    },
+    "RETURN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRET2",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Return Messages"
+    }
+  }
+}

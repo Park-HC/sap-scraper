@@ -1,0 +1,123 @@
+{
+  "description": "User: Fixed Values Transfer Structure",
+  "STCOD": {
+    "Key": false,
+    "Data Element": "XUSTCOD",
+    "Domain": "TCODE",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Start menu (old, replaced by XUSTART)",
+    "Checktable": "*"
+  },
+  "SPLD": {
+    "Key": false,
+    "Data Element": "RSPOPNAME",
+    "Domain": "RSPOPNAME",
+    "DataType": "CHAR",
+    "Length": "4",
+    "DecimalPlaces": "0",
+    "Short Description": "Spool: Output device",
+    "Checktable": "TSP03"
+  },
+  "SPLG": {
+    "Key": false,
+    "Data Element": "XUSPLG",
+    "Domain": "XUSPLG",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Print parameter 1",
+    "Checktable": null
+  },
+  "SPDB": {
+    "Key": false,
+    "Data Element": "XUSPDB",
+    "Domain": "XUSPDB",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Print parameter 2",
+    "Checktable": null
+  },
+  "SPDA": {
+    "Key": false,
+    "Data Element": "XUSPDA",
+    "Domain": "XUSPDA",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Print parameter 3",
+    "Checktable": null
+  },
+  "DATFM": {
+    "Key": false,
+    "Data Element": "XUDATFM",
+    "Domain": "XUDATFM",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Date format",
+    "Checktable": null
+  },
+  "DCPFM": {
+    "Key": false,
+    "Data Element": "XUDCPFM",
+    "Domain": "XUDCPFM",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Decimal Format",
+    "Checktable": null
+  },
+  "LANGU": {
+    "Key": false,
+    "Data Element": "XULANGU",
+    "Domain": "LANG",
+    "DataType": "LANG",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Logon Language",
+    "Checktable": null
+  },
+  "CATTKENNZ": {
+    "Key": false,
+    "Data Element": "XUCATT",
+    "Domain": "XUBUTTON",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "CATT: Test Status",
+    "Checktable": null
+  },
+  "KOSTL": {
+    "Key": false,
+    "Data Element": "XUKOSTL",
+    "Domain": "CHAR8",
+    "DataType": "CHAR",
+    "Length": "8",
+    "DecimalPlaces": "0",
+    "Short Description": "Cost center",
+    "Checktable": null
+  },
+  "START_MENU": {
+    "Key": false,
+    "Data Element": "XUSTART",
+    "Domain": "SYCHAR30",
+    "DataType": "CHAR",
+    "Length": "30",
+    "DecimalPlaces": "0",
+    "Short Description": "Start menu",
+    "Checktable": null
+  },
+  "TIMEFM": {
+    "Key": false,
+    "Data Element": "XUTIMEFM",
+    "Domain": "XUTIMEFM",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Time Format (12-/24-Hour Specification)",
+    "Checktable": null
+  }
+}

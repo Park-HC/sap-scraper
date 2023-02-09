@@ -1,0 +1,1 @@
+{"description": "BAPI Structure for CUA Target Systems", "SUBSYSTEM": {"Key": false, "Data Element": "RFCRCVSYS", "Domain": "LOGSYS", "DataType": "CHAR", "Length": "10", "DecimalPlaces": "0", "Short Description": "Receiving system for central user administration", "Checktable": "TBDLS"}}

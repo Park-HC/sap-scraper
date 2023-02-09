@@ -28,30 +28,34 @@ def get_table_scheme(table_name):
     page = requests.get(RFC_TABLE_URL + table_name + RFC_POST_FIX)
     soup = bs(page.text, "html.parser")
 
-    description = soup.select('title')[0].text.replace(')', '(').split('(')[1]
+    if '(' in soup.select('title')[0].text:
+        description = soup.select('title')[0].text.replace(')', '(').split('(')[1]
+    else:
+        description = soup.select('title')[0].text
     field_dict = {'description': description}
 
     caption = soup.find('caption', {'class': 'text-right sapds-alv'})
 
-    thead = caption.next_sibling.next_sibling
-    ths = thead.select('th')
-    attribute_list = [th.text.strip() if th.text and th.text.strip() else 'index' for th in ths]
+    if caption:
+        thead = caption.next_sibling.next_sibling
+        ths = thead.select('th')
+        attribute_list = [th.text.strip() if th.text and th.text.strip() else 'index' for th in ths]
 
-    tbody = thead.next_sibling.next_sibling
-    trs = tbody.select('tr')
+        tbody = thead.next_sibling.next_sibling
+        trs = tbody.select('tr')
 
-    for tr in trs:
-        tds = tr.select('td')
-        td_list = [td_text_parser(td) for td in tds]
+        for tr in trs:
+            tds = tr.select('td')
+            td_list = [td_text_parser(td) for td in tds]
 
-        if not field_dict.get(td_list[1]):
-            field_dict[td_list[1]] = {}
+            if not field_dict.get(td_list[1]):
+                field_dict[td_list[1]] = {}
 
-        for idx, td in enumerate(td_list):
-            if idx < 2:
-                continue
+            for idx, td in enumerate(td_list):
+                if idx < 2:
+                    continue
 
-            field_dict[td_list[1]][attribute_list[idx]] = td
+                field_dict[td_list[1]][attribute_list[idx]] = td
 
     with open(file_root, 'w') as file:
         file.write(json.dumps(field_dict))
