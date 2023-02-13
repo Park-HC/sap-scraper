@@ -1,0 +1,93 @@
+{
+  "description": "General Release Information on Purchase Order",
+  "PO_NUMBER": {
+    "Key": false,
+    "Data Element": "EBELN",
+    "Domain": "EBELN",
+    "DataType": "CHAR",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "Purchasing Document Number",
+    "Checktable": "EKKO"
+  },
+  "REL_GROUP": {
+    "Key": false,
+    "Data Element": "FRGGR",
+    "Domain": "FRGGR",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release group",
+    "Checktable": "*"
+  },
+  "REL_GRP_TX": {
+    "Key": false,
+    "Data Element": "FRGGT",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release group",
+    "Checktable": null
+  },
+  "REL_STRAT": {
+    "Key": false,
+    "Data Element": "FRGSX",
+    "Domain": "FRGSX",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release Strategy",
+    "Checktable": "T16FS"
+  },
+  "REL_STR_TX": {
+    "Key": false,
+    "Data Element": "FRGXT",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release strategy",
+    "Checktable": null
+  },
+  "REL_IND": {
+    "Key": false,
+    "Data Element": "FRGKX",
+    "Domain": "CHAR01",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Release indicator",
+    "Checktable": null
+  },
+  "REL_IND_TX": {
+    "Key": false,
+    "Data Element": "FRGET",
+    "Domain": "TEXT30",
+    "DataType": "CHAR",
+    "Length": "30",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of Release Indicator",
+    "Checktable": null
+  },
+  "REL_CODE": {
+    "Key": false,
+    "Data Element": "FRGCO",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code",
+    "Checktable": "*"
+  },
+  "REL_COD_TX": {
+    "Key": false,
+    "Data Element": "FRGCT",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code",
+    "Checktable": null
+  }
+}

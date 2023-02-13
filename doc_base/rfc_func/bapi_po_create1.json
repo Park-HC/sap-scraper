@@ -1,6 +1,14 @@
 {
-  "description": "Change Purchase Order",
+  "description": "Create Purchase Order",
   "Exporting": {
+    "EXPPURCHASEORDER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMEPOHEADER-PO_NUMBER",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Purchasing Document Number"
+    },
     "EXPHEADER": {
       "Typing": "TYPE",
       "Associated Type": "BAPIMEPOHEADER",
@@ -19,19 +27,11 @@
     }
   },
   "Importing": {
-    "PURCHASEORDER": {
-      "Typing": "TYPE",
-      "Associated Type": "BAPIMEPOHEADER-PO_NUMBER",
-      "Default value": null,
-      "Optional": false,
-      "Pass Value": true,
-      "Short text": "Purchasing Document Number"
-    },
     "POHEADER": {
       "Typing": "TYPE",
       "Associated Type": "BAPIMEPOHEADER",
       "Default value": null,
-      "Optional": true,
+      "Optional": false,
       "Pass Value": true,
       "Short text": "Header Data"
     },
@@ -131,14 +131,6 @@
       "Pass Value": true,
       "Short text": "No Adoption of Price from Last Document"
     },
-    "PARK_UNCOMPLETE": {
-      "Typing": "TYPE",
-      "Associated Type": "BAPIFLAG-BAPIFLAG",
-      "Default value": null,
-      "Optional": true,
-      "Pass Value": true,
-      "Short text": "Park Document if Faulty"
-    },
     "PARK_COMPLETE": {
       "Typing": "TYPE",
       "Associated Type": "BAPIFLAG-BAPIFLAG",
@@ -146,6 +138,14 @@
       "Optional": true,
       "Pass Value": true,
       "Short text": "Park Document if NOT Faulty"
+    },
+    "PARK_UNCOMPLETE": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIFLAG-BAPIFLAG",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Park Document if Faulty"
     }
   },
   "Tables": {
@@ -397,30 +397,6 @@
       "Pass Value": false,
       "Short text": "Export Structure for Shipping Data"
     },
-    "POHISTORY": {
-      "Typing": "TYPE",
-      "Associated Type": "BAPIEKBE",
-      "Default value": null,
-      "Optional": true,
-      "Pass Value": false,
-      "Short text": "Transfer Structure for PO History"
-    },
-    "POHISTORY_TOTALS": {
-      "Typing": "TYPE",
-      "Associated Type": "BAPIEKBES",
-      "Default value": null,
-      "Optional": true,
-      "Pass Value": false,
-      "Short text": "Transfer Structure for PO History: Totals"
-    },
-    "POCONFIRMATION": {
-      "Typing": "TYPE",
-      "Associated Type": "BAPIEKES",
-      "Default value": null,
-      "Optional": true,
-      "Pass Value": false,
-      "Short text": "Transfer Structure: Display/List - Vendor Confirmation"
-    },
     "SERIALNUMBER": {
       "Typing": "TYPE",
       "Associated Type": "BAPIMEPOSERIALNO",
@@ -468,14 +444,6 @@
       "Optional": true,
       "Pass Value": false,
       "Short text": "Invoicing Plan Item Data (Change Parameter)"
-    },
-    "POHISTORY_MA": {
-      "Typing": "TYPE",
-      "Associated Type": "BAPIEKBE_MA",
-      "Default value": null,
-      "Optional": true,
-      "Pass Value": false,
-      "Short text": "Transfer Structure for Purchase Order History Account Assignment Level"
     }
   }
 }

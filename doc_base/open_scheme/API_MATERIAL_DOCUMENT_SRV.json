@@ -1,1 +1,760 @@
-{"Document Header (for create)": {"MaterialDocumentYear": {"Optional": false, "maxLength": "4", "title": "Material Document Year"}, "MaterialDocument": {"Optional": false, "Short text": "Number of Material Document", "maxLength": "10", "title": "Material Document"}, "InventoryTransactionType": {"Optional": true, "Short text": "Transaction/Event Type", "nullable": "true", "maxLength": "2", "title": "Trans. / Event Type", "x-sap-object-node-type-reference": "InventoryTransactionType"}, "DocumentDate": {"Optional": true, "Short text": "Document Date in Document", "nullable": "true", "example": "/Date(1492041600000)/", "title": "Document Date"}, "PostingDate": {"Optional": true, "Short text": "Posting Date in the Document", "nullable": "true", "example": "/Date(1492041600000)/", "title": "Posting Date"}, "CreationDate": {"Optional": true, "Short text": "Day On Which Accounting Document Was Entered", "nullable": "true", "example": "/Date(1492041600000)/", "title": "Entry Date"}, "CreationTime": {"Optional": true, "nullable": "true", "example": "PT15H51M04S", "title": "Time of Entry"}, "CreatedByUser": {"Optional": true, "nullable": "true", "maxLength": "12", "title": "User Name"}, "MaterialDocumentHeaderText": {"Optional": true, "nullable": "true", "maxLength": "25", "title": "Document Header Text"}, "ReferenceDocument": {"Optional": true, "Short text": "Reference Document Number", "nullable": "true", "maxLength": "16", "title": "Reference"}, "VersionForPrintingSlip": {"Optional": true, "Short text": "Version for Printing GR/GI Slip", "nullable": "true", "maxLength": "1", "title": "Print Version"}, "ManualPrintIsTriggered": {"Optional": true, "Short text": "Print via Output Control", "nullable": "true", "maxLength": "1", "title": "Print Active"}, "CtrlPostgForExtWhseMgmtSyst": {"Optional": true, "Short text": "Control posting for external WMS", "nullable": "true", "maxLength": "1", "title": "Ext. WMS control", "x-sap-object-node-type-reference": "CtrlPostgForExtWhseMgmtSyst"}, "GoodsMovementCode": {"Optional": true, "nullable": "true", "maxLength": "2", "title": "Goods Movement Code", "x-sap-object-node-type-reference": "GoodsMovementCode"}, "to_MaterialDocumentItem": {"Optional": true, "table": "Document Items (for create)"}}, "Document Header": {"MaterialDocumentYear": {"Optional": true, "maxLength": "4", "title": "Material Document Year"}, "MaterialDocument": {"Optional": true, "Short text": "Number of Material Document", "maxLength": "10", "title": "Material Document"}, "InventoryTransactionType": {"Optional": true, "Short text": "Transaction/Event Type", "nullable": "true", "maxLength": "2", "title": "Trans. / Event Type", "x-sap-object-node-type-reference": "InventoryTransactionType"}, "DocumentDate": {"Optional": true, "Short text": "Document Date in Document", "nullable": "true", "example": "/Date(1492041600000)/", "title": "Document Date"}, "PostingDate": {"Optional": true, "Short text": "Posting Date in the Document", "nullable": "true", "example": "/Date(1492041600000)/", "title": "Posting Date"}, "CreationDate": {"Optional": true, "Short text": "Day On Which Accounting Document Was Entered", "nullable": "true", "example": "/Date(1492041600000)/", "title": "Entry Date"}, "CreationTime": {"Optional": true, "nullable": "true", "example": "PT15H51M04S", "title": "Time of Entry"}, "CreatedByUser": {"Optional": true, "nullable": "true", "maxLength": "12", "title": "User Name"}, "MaterialDocumentHeaderText": {"Optional": true, "nullable": "true", "maxLength": "25", "title": "Document Header Text"}, "ReferenceDocument": {"Optional": true, "Short text": "Reference Document Number", "nullable": "true", "maxLength": "16", "title": "Reference"}, "VersionForPrintingSlip": {"Optional": true, "Short text": "Version for Printing GR/GI Slip", "nullable": "true", "maxLength": "1", "title": "Print Version"}, "ManualPrintIsTriggered": {"Optional": true, "Short text": "Print via Output Control", "nullable": "true", "maxLength": "1", "title": "Print Active"}, "CtrlPostgForExtWhseMgmtSyst": {"Optional": true, "Short text": "Control posting for external WMS", "nullable": "true", "maxLength": "1", "title": "Ext. WMS control", "x-sap-object-node-type-reference": "CtrlPostgForExtWhseMgmtSyst"}, "GoodsMovementCode": {"Optional": true, "nullable": "true", "maxLength": "2", "title": "Goods Movement Code", "x-sap-object-node-type-reference": "GoodsMovementCode"}, "to_MaterialDocumentItem": {"Optional": true, "table": "Document Items"}}, "Document Items": {"MaterialDocumentYear": {"Optional": true, "maxLength": "4", "title": "Material Document Year"}, "MaterialDocument": {"Optional": true, "Short text": "Number of Material Document", "maxLength": "10", "title": "Material Document"}, "MaterialDocumentItem": {"Optional": true, "maxLength": "4", "title": "Material Document Item"}, "Material": {"Optional": true, "Short text": "Material Number", "nullable": "true", "maxLength": "40", "title": "Material"}, "Plant": {"Optional": true, "nullable": "true", "maxLength": "4", "title": "Plant"}, "StorageLocation": {"Optional": true, "nullable": "true", "maxLength": "4", "title": "Storage Location", "x-sap-object-node-type-reference": "StorageLocation"}, "Batch": {"Optional": true, "Short text": "Batch Number", "nullable": "true", "maxLength": "10", "title": "Batch"}, "GoodsMovementType": {"Optional": true, "Short text": "Movement Type (Inventory Management)", "nullable": "true", "maxLength": "3", "title": "Movement Type", "x-sap-object-node-type-reference": "GoodsMovementType"}, "InventoryStockType": {"Optional": true, "Short text": "Stock Type of Goods Movement (Stock Identifier)", "nullable": "true", "maxLength": "2", "title": "Stock Type", "x-sap-object-node-type-reference": "InventoryStockType"}, "InventoryValuationType": {"Optional": true, "nullable": "true", "maxLength": "10", "title": "Valuation Type", "x-sap-object-node-type-reference": "ProductValuationType"}, "InventorySpecialStockType": {"Optional": true, "nullable": "true", "maxLength": "1", "title": "Special Stock Type", "x-sap-object-node-type-reference": "InventorySpecialStockType"}, "Supplier": {"Optional": true, "Short text": "Supplier's Account Number", "nullable": "true", "maxLength": "10", "title": "Supplier"}, "Customer": {"Optional": true, "Short text": "Account number of customer", "nullable": "true", "maxLength": "10", "title": "Customer"}, "SalesOrder": {"Optional": true, "Short text": "Sales Order Number", "nullable": "true", "maxLength": "10", "title": "Sales Order"}, "SalesOrderItem": {"Optional": true, "nullable": "true", "maxLength": "6", "title": "Sales Order Item"}, "SalesOrderScheduleLine": {"Optional": true, "nullable": "true", "maxLength": "4", "title": "Sales Order Schedule"}, "PurchaseOrder": {"Optional": true, "Short text": "Purchase Order Number", "nullable": "true", "maxLength": "10", "title": "Purchase Order"}, "PurchaseOrderItem": {"Optional": true, "Short text": "Item Number of Purchasing Document", "nullable": "true", "maxLength": "5", "title": "Purchase Order Item"}, "WBSElement": {"Optional": true, "Short text": "Work Breakdown Structure Element (WBS Element)", "nullable": "true", "maxLength": "24", "title": "WBS Element"}, "ManufacturingOrder": {"Optional": true, "nullable": "true", "maxLength": "12", "title": "Manufacturing Order"}, "ManufacturingOrderItem": {"Optional": true, "nullable": "true", "maxLength": "4", "title": "Manufacturing Order Item"}, "GoodsMovementRefDocType": {"Optional": true, "Short text": "Goods movement ref doc type", "nullable": "true", "maxLength": "1", "title": "Reference Doc. Type", "x-sap-object-node-type-reference": "GoodsMovementReferenceDocType"}, "GoodsMovementReasonCode": {"Optional": true, "nullable": "true", "maxLength": "4", "title": "Reason for Movement", "x-sap-object-node-type-reference": "GoodsMovementReason"}, "Delivery": {"Optional": true, "nullable": "true", "maxLength": "10", "title": "Delivery"}, "DeliveryItem": {"Optional": true, "nullable": "true", "maxLength": "6", "title": "Delivery Item"}, "AccountAssignmentCategory": {"Optional": true, "nullable": "true", "maxLength": "1", "title": "Account Assignment Category", "x-sap-object-node-type-reference": "AccountAssignmentCategory"}, "CostCenter": {"Optional": true, "nullable": "true", "maxLength": "10", "title": "Cost Center"}, "ControllingArea": {"Optional": true, "nullable": "true", "maxLength": "4", "title": "Controlling Area"}, "CostObject": {"Optional": true, "nullable": "true", "maxLength": "12", "title": "Cost Object"}, "GLAccount": {"Optional": true, "Short text": "G/L Account Number", "nullable": "true", "maxLength": "10", "title": "G/L Account"}, "FunctionalArea": {"Optional": true, "nullable": "true", "maxLength": "16", "title": "Functional Area"}, "ProfitabilitySegment": {"Optional": true, "nullable": "true", "maxLength": "10", "title": "Profitability Segment"}, "ProfitCenter": {"Optional": true, "nullable": "true", "maxLength": "10", "title": "Profit Center"}, "MasterFixedAsset": {"Optional": true, "Short text": "Main Asset Number", "nullable": "true", "maxLength": "12", "title": "Asset"}, "FixedAsset": {"Optional": true, "Short text": "Asset Subnumber", "nullable": "true", "maxLength": "4", "title": "Subnumber"}, "MaterialBaseUnit": {"Optional": true, "nullable": "true", "maxLength": "3", "title": "Base Unit of Measure"}, "QuantityInBaseUnit": {"Optional": true, "nullable": "true", "multipleOf": "0.001", "minimum": "-9999999999.999", "maximum": "9999999999.999", "example": "0", "title": "Quantity"}, "EntryUnit": {"Optional": true, "Short text": "Unit of entry", "nullable": "true", "maxLength": "3", "title": "Unit of Entry"}, "QuantityInEntryUnit": {"Optional": true, "Short text": "Quantity in unit of entry", "nullable": "true", "multipleOf": "0.001", "minimum": "-9999999999.999", "maximum": "9999999999.999", "example": "0", "title": "Qty in unit of entry"}, "CompanyCodeCurrency": {"Optional": true, "nullable": "true", "maxLength": "5", "title": "Company Code Currency", "x-sap-object-node-type-reference": "Currency"}, "GdsMvtExtAmtInCoCodeCrcy": {"Optional": true, "Short text": "Externally Entered Posting Amount in Local Currency", "nullable": "true", "multipleOf": "0.001", "minimum": "-99999999999.999", "maximum": "99999999999.999", "example": "0", "title": "Ext. Amount in LC"}, "SlsPrcAmtInclVATInCoCodeCrcy": {"Optional": true, "Short text": "Value at Sales Prices Including Value-Added Tax", "nullable": "true", "multipleOf": "0.001", "minimum": "-99999999999.999", "maximum": "99999999999.999", "example": "0", "title": "Sales Value inc. VAT"}, "FiscalYear": {"Optional": true, "nullable": "true", "maxLength": "4", "title": "Fiscal Year"}, "FiscalYearPeriod": {"Optional": true, "Short text": "Period Year", "nullable": "true", "maxLength": "7", "title": "Fiscal Year & Period from Posting date"}, "FiscalYearVariant": {"Optional": true, "nullable": "true", "maxLength": "2", "title": "Fiscal Year Variant", "x-sap-object-node-type-reference": "FiscalYearVariant"}, "IssgOrRcvgMaterial": {"Optional": true, "nullable": "true", "maxLength": "40", "title": "Transfer Material"}, "IssgOrRcvgBatch": {"Optional": true, "nullable": "true", "maxLength": "10", "title": "Transfer Batch"}, "IssuingOrReceivingPlant": {"Optional": true, "Short text": "Receiving/Issuing Plant", "nullable": "true", "maxLength": "4", "title": "Rec/Iss Plant"}, "IssuingOrReceivingStorageLoc": {"Optional": true, "Short text": "Receiving/issuing storage location", "nullable": "true", "maxLength": "4", "title": "Receiving stor. loc."}, "IssuingOrReceivingStockType": {"Optional": true, "nullable": "true", "maxLength": "2", "title": "Transfer Stock Type", "x-sap-object-node-type-reference": "InventoryStockType"}, "IssgOrRcvgSpclStockInd": {"Optional": true, "nullable": "true", "maxLength": "1", "title": "Transfer Special Stock Type", "x-sap-object-node-type-reference": "InventorySpecialStockType"}, "IssuingOrReceivingValType": {"Optional": true, "Short text": "Valuation Type of Transfer Batch", "nullable": "true", "maxLength": "10", "title": "Val. Type Tfr Batch", "x-sap-object-node-type-reference": "ProductValuationType"}, "IsCompletelyDelivered": {"Optional": true, "Short text": "\"Delivery Completed\" Indicator", "nullable": "true", "title": "Delivery Completed"}, "MaterialDocumentItemText": {"Optional": true, "Short text": "Item Text", "nullable": "true", "maxLength": "50", "title": "Text"}, "UnloadingPointName": {"Optional": true, "nullable": "true", "maxLength": "25", "title": "Unloading Point"}, "ShelfLifeExpirationDate": {"Optional": true, "Short text": "Shelf Life Expiration or Best-Before Date", "nullable": "true", "example": "/Date(1492041600000)/", "title": "SLED/BBD"}, "ManufactureDate": {"Optional": true, "nullable": "true", "example": "/Date(1492041600000)/", "title": "Date of Manufacture"}, "SerialNumbersAreCreatedAutomly": {"Optional": true, "Short text": "Create serial number automatically", "nullable": "true", "title": "SerialNo. auto."}, "Reservation": {"Optional": true, "Short text": "Number of reservation/dependent requirements", "nullable": "true", "maxLength": "10", "title": "Reservation"}, "ReservationItem": {"Optional": true, "Short text": "Item Number of Reservation / Dependent Requirements", "nullable": "true", "maxLength": "4", "title": "Reservation Item"}, "ReservationIsFinallyIssued": {"Optional": true, "Short text": "Final Issue for Reservation", "nullable": "true", "title": "Res Final Issue"}, "SpecialStockIdfgSalesOrder": {"Optional": true, "Short text": "Sales order number of valuated sales order stock", "nullable": "true", "maxLength": "10", "title": "Sales order"}, "SpecialStockIdfgSalesOrderItem": {"Optional": true, "Short text": "Sales Order Item of Valuated Sales Order Stock", "nullable": "true", "maxLength": "6", "title": "Sales order item"}, "SpecialStockIdfgWBSElement": {"Optional": true, "Short text": "Work Breakdown Structure Element (WBS Element)", "nullable": "true", "maxLength": "24", "title": "WBS Element"}, "IsAutomaticallyCreated": {"Optional": true, "Short text": "Item Automatically Created Indicator", "nullable": "true", "maxLength": "1", "title": "Automat. Created"}, "MaterialDocumentLine": {"Optional": true, "Short text": "Unique Identification of Document Line", "nullable": "true", "maxLength": "6", "title": "Line ID"}, "MaterialDocumentParentLine": {"Optional": true, "Short text": "Identifier of immediately superior line", "nullable": "true", "maxLength": "6", "title": "Parent line ID"}, "HierarchyNodeLevel": {"Optional": true, "Short text": "Hierarchy level of line in document", "nullable": "true", "maxLength": "2", "title": "Hierarchy level"}, "GoodsMovementIsCancelled": {"Optional": true, "Short text": "Item has been Cancelled", "nullable": "true", "title": "Is Item Cancelled"}, "ReversedMaterialDocumentYear": {"Optional": true, "Short text": "Reversed Material Document Year", "nullable": "true", "maxLength": "4", "title": "Reversed Doc Year"}, "ReversedMaterialDocument": {"Optional": true, "Short text": "Reversed Material Document", "nullable": "true", "maxLength": "10", "title": "Reversed Mat Doc"}, "ReversedMaterialDocumentItem": {"Optional": true, "Short text": "Reversed Material Document Item", "nullable": "true", "maxLength": "4", "title": "Reversed Doc Item"}, "ReferenceDocumentFiscalYear": {"Optional": true, "Short text": "Fiscal Year of a Reference Document", "nullable": "true", "maxLength": "4", "title": "Fisc.yr.ref.doc"}, "InvtryMgmtRefDocumentItem": {"Optional": true, "Short text": "Item of a Reference Document", "nullable": "true", "maxLength": "4", "title": "Reference Doc. Item"}, "InvtryMgmtReferenceDocument": {"Optional": true, "Short text": "Document No. of a Reference Document", "nullable": "true", "maxLength": "10", "title": "Reference Document"}, "MaterialDocumentPostingType": {"Optional": true, "Short text": "Reversal, return delivery, or transfer posting", "nullable": "true", "maxLength": "1", "title": "Type of posting", "x-sap-object-node-type-reference": "MaterialDocumentPostingType"}, "InventoryUsabilityCode": {"Optional": true, "nullable": "true", "maxLength": "1", "title": "Posting Control Stock Type", "x-sap-object-node-type-reference": "InventoryUsabilityCode"}, "EWMWarehouse": {"Optional": true, "Short text": "Warehouse Number/Warehouse Complex", "nullable": "true", "maxLength": "4", "title": "Warehouse Number", "x-sap-object-node-type-reference": "Warehouse"}, "EWMStorageBin": {"Optional": true, "nullable": "true", "maxLength": "18", "title": "Storage Bin"}, "DebitCreditCode": {"Optional": true, "Short text": "Debit/Credit Indicator", "nullable": "true", "maxLength": "1", "title": "Debit/Credit ind"}, "to_MaterialDocumentHeader": {"Optional": true, "table": "Document Header"}, "to_SerialNumbers": {"Optional": true, "table": "Serial Numbers"}}}
+{
+  "Document Header (for create)": {
+    "MaterialDocumentYear": {
+      "Optional": false,
+      "maxLength": "4",
+      "title": "Material Document Year"
+    },
+    "MaterialDocument": {
+      "Optional": false,
+      "Short text": "Number of Material Document",
+      "maxLength": "10",
+      "title": "Material Document"
+    },
+    "InventoryTransactionType": {
+      "Optional": true,
+      "Short text": "Transaction/Event Type",
+      "nullable": "true",
+      "maxLength": "2",
+      "title": "Trans. / Event Type",
+      "x-sap-object-node-type-reference": "InventoryTransactionType"
+    },
+    "DocumentDate": {
+      "Optional": true,
+      "Short text": "Document Date in Document",
+      "nullable": "true",
+      "example": "/Date(1492041600000)/",
+      "title": "Document Date"
+    },
+    "PostingDate": {
+      "Optional": true,
+      "Short text": "Posting Date in the Document",
+      "nullable": "true",
+      "example": "/Date(1492041600000)/",
+      "title": "Posting Date"
+    },
+    "CreationDate": {
+      "Optional": true,
+      "Short text": "Day On Which Accounting Document Was Entered",
+      "nullable": "true",
+      "example": "/Date(1492041600000)/",
+      "title": "Entry Date"
+    },
+    "CreationTime": {
+      "Optional": true,
+      "nullable": "true",
+      "example": "PT15H51M04S",
+      "title": "Time of Entry"
+    },
+    "CreatedByUser": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "12",
+      "title": "User Name"
+    },
+    "MaterialDocumentHeaderText": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "25",
+      "title": "Document Header Text"
+    },
+    "ReferenceDocument": {
+      "Optional": true,
+      "Short text": "Reference Document Number",
+      "nullable": "true",
+      "maxLength": "16",
+      "title": "Reference"
+    },
+    "VersionForPrintingSlip": {
+      "Optional": true,
+      "Short text": "Version for Printing GR/GI Slip",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Print Version"
+    },
+    "ManualPrintIsTriggered": {
+      "Optional": true,
+      "Short text": "Print via Output Control",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Print Active"
+    },
+    "CtrlPostgForExtWhseMgmtSyst": {
+      "Optional": true,
+      "Short text": "Control posting for external WMS",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Ext. WMS control",
+      "x-sap-object-node-type-reference": "CtrlPostgForExtWhseMgmtSyst"
+    },
+    "GoodsMovementCode": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "2",
+      "title": "Goods Movement Code",
+      "x-sap-object-node-type-reference": "GoodsMovementCode"
+    },
+    "to_MaterialDocumentItem": {
+      "Optional": true,
+      "table": "Document Items (for create)"
+    }
+  },
+  "Document Header": {
+    "MaterialDocumentYear": {
+      "Optional": true,
+      "maxLength": "4",
+      "title": "Material Document Year"
+    },
+    "MaterialDocument": {
+      "Optional": true,
+      "Short text": "Number of Material Document",
+      "maxLength": "10",
+      "title": "Material Document"
+    },
+    "InventoryTransactionType": {
+      "Optional": true,
+      "Short text": "Transaction/Event Type",
+      "nullable": "true",
+      "maxLength": "2",
+      "title": "Trans. / Event Type",
+      "x-sap-object-node-type-reference": "InventoryTransactionType"
+    },
+    "DocumentDate": {
+      "Optional": true,
+      "Short text": "Document Date in Document",
+      "nullable": "true",
+      "example": "/Date(1492041600000)/",
+      "title": "Document Date"
+    },
+    "PostingDate": {
+      "Optional": true,
+      "Short text": "Posting Date in the Document",
+      "nullable": "true",
+      "example": "/Date(1492041600000)/",
+      "title": "Posting Date"
+    },
+    "CreationDate": {
+      "Optional": true,
+      "Short text": "Day On Which Accounting Document Was Entered",
+      "nullable": "true",
+      "example": "/Date(1492041600000)/",
+      "title": "Entry Date"
+    },
+    "CreationTime": {
+      "Optional": true,
+      "nullable": "true",
+      "example": "PT15H51M04S",
+      "title": "Time of Entry"
+    },
+    "CreatedByUser": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "12",
+      "title": "User Name"
+    },
+    "MaterialDocumentHeaderText": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "25",
+      "title": "Document Header Text"
+    },
+    "ReferenceDocument": {
+      "Optional": true,
+      "Short text": "Reference Document Number",
+      "nullable": "true",
+      "maxLength": "16",
+      "title": "Reference"
+    },
+    "VersionForPrintingSlip": {
+      "Optional": true,
+      "Short text": "Version for Printing GR/GI Slip",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Print Version"
+    },
+    "ManualPrintIsTriggered": {
+      "Optional": true,
+      "Short text": "Print via Output Control",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Print Active"
+    },
+    "CtrlPostgForExtWhseMgmtSyst": {
+      "Optional": true,
+      "Short text": "Control posting for external WMS",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Ext. WMS control",
+      "x-sap-object-node-type-reference": "CtrlPostgForExtWhseMgmtSyst"
+    },
+    "GoodsMovementCode": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "2",
+      "title": "Goods Movement Code",
+      "x-sap-object-node-type-reference": "GoodsMovementCode"
+    },
+    "to_MaterialDocumentItem": {
+      "Optional": true,
+      "table": "Document Items"
+    }
+  },
+  "Document Items": {
+    "MaterialDocumentYear": {
+      "Optional": true,
+      "maxLength": "4",
+      "title": "Material Document Year"
+    },
+    "MaterialDocument": {
+      "Optional": true,
+      "Short text": "Number of Material Document",
+      "maxLength": "10",
+      "title": "Material Document"
+    },
+    "MaterialDocumentItem": {
+      "Optional": true,
+      "maxLength": "4",
+      "title": "Material Document Item"
+    },
+    "Material": {
+      "Optional": true,
+      "Short text": "Material Number",
+      "nullable": "true",
+      "maxLength": "40",
+      "title": "Material"
+    },
+    "Plant": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Plant"
+    },
+    "StorageLocation": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Storage Location",
+      "x-sap-object-node-type-reference": "StorageLocation"
+    },
+    "Batch": {
+      "Optional": true,
+      "Short text": "Batch Number",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Batch"
+    },
+    "GoodsMovementType": {
+      "Optional": true,
+      "Short text": "Movement Type (Inventory Management)",
+      "nullable": "true",
+      "maxLength": "3",
+      "title": "Movement Type",
+      "x-sap-object-node-type-reference": "GoodsMovementType"
+    },
+    "InventoryStockType": {
+      "Optional": true,
+      "Short text": "Stock Type of Goods Movement (Stock Identifier)",
+      "nullable": "true",
+      "maxLength": "2",
+      "title": "Stock Type",
+      "x-sap-object-node-type-reference": "InventoryStockType"
+    },
+    "InventoryValuationType": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Valuation Type",
+      "x-sap-object-node-type-reference": "ProductValuationType"
+    },
+    "InventorySpecialStockType": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Special Stock Type",
+      "x-sap-object-node-type-reference": "InventorySpecialStockType"
+    },
+    "Supplier": {
+      "Optional": true,
+      "Short text": "Supplier's Account Number",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Supplier"
+    },
+    "Customer": {
+      "Optional": true,
+      "Short text": "Account number of customer",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Customer"
+    },
+    "SalesOrder": {
+      "Optional": true,
+      "Short text": "Sales Order Number",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Sales Order"
+    },
+    "SalesOrderItem": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "6",
+      "title": "Sales Order Item"
+    },
+    "SalesOrderScheduleLine": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Sales Order Schedule"
+    },
+    "PurchaseOrder": {
+      "Optional": true,
+      "Short text": "Purchase Order Number",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Purchase Order"
+    },
+    "PurchaseOrderItem": {
+      "Optional": true,
+      "Short text": "Item Number of Purchasing Document",
+      "nullable": "true",
+      "maxLength": "5",
+      "title": "Purchase Order Item"
+    },
+    "WBSElement": {
+      "Optional": true,
+      "Short text": "Work Breakdown Structure Element (WBS Element)",
+      "nullable": "true",
+      "maxLength": "24",
+      "title": "WBS Element"
+    },
+    "ManufacturingOrder": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "12",
+      "title": "Manufacturing Order"
+    },
+    "ManufacturingOrderItem": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Manufacturing Order Item"
+    },
+    "GoodsMovementRefDocType": {
+      "Optional": true,
+      "Short text": "Goods movement ref doc type",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Reference Doc. Type",
+      "x-sap-object-node-type-reference": "GoodsMovementReferenceDocType"
+    },
+    "GoodsMovementReasonCode": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Reason for Movement",
+      "x-sap-object-node-type-reference": "GoodsMovementReason"
+    },
+    "Delivery": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Delivery"
+    },
+    "DeliveryItem": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "6",
+      "title": "Delivery Item"
+    },
+    "AccountAssignmentCategory": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Account Assignment Category",
+      "x-sap-object-node-type-reference": "AccountAssignmentCategory"
+    },
+    "CostCenter": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Cost Center"
+    },
+    "ControllingArea": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Controlling Area"
+    },
+    "CostObject": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "12",
+      "title": "Cost Object"
+    },
+    "GLAccount": {
+      "Optional": true,
+      "Short text": "G/L Account Number",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "G/L Account"
+    },
+    "FunctionalArea": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "16",
+      "title": "Functional Area"
+    },
+    "ProfitabilitySegment": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Profitability Segment"
+    },
+    "ProfitCenter": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Profit Center"
+    },
+    "MasterFixedAsset": {
+      "Optional": true,
+      "Short text": "Main Asset Number",
+      "nullable": "true",
+      "maxLength": "12",
+      "title": "Asset"
+    },
+    "FixedAsset": {
+      "Optional": true,
+      "Short text": "Asset Subnumber",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Subnumber"
+    },
+    "MaterialBaseUnit": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "3",
+      "title": "Base Unit of Measure"
+    },
+    "QuantityInBaseUnit": {
+      "Optional": true,
+      "nullable": "true",
+      "multipleOf": "0.001",
+      "minimum": "-9999999999.999",
+      "maximum": "9999999999.999",
+      "example": "0",
+      "title": "Quantity"
+    },
+    "EntryUnit": {
+      "Optional": true,
+      "Short text": "Unit of entry",
+      "nullable": "true",
+      "maxLength": "3",
+      "title": "Unit of Entry"
+    },
+    "QuantityInEntryUnit": {
+      "Optional": true,
+      "Short text": "Quantity in unit of entry",
+      "nullable": "true",
+      "multipleOf": "0.001",
+      "minimum": "-9999999999.999",
+      "maximum": "9999999999.999",
+      "example": "0",
+      "title": "Qty in unit of entry"
+    },
+    "CompanyCodeCurrency": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "5",
+      "title": "Company Code Currency",
+      "x-sap-object-node-type-reference": "Currency"
+    },
+    "GdsMvtExtAmtInCoCodeCrcy": {
+      "Optional": true,
+      "Short text": "Externally Entered Posting Amount in Local Currency",
+      "nullable": "true",
+      "multipleOf": "0.001",
+      "minimum": "-99999999999.999",
+      "maximum": "99999999999.999",
+      "example": "0",
+      "title": "Ext. Amount in LC"
+    },
+    "SlsPrcAmtInclVATInCoCodeCrcy": {
+      "Optional": true,
+      "Short text": "Value at Sales Prices Including Value-Added Tax",
+      "nullable": "true",
+      "multipleOf": "0.001",
+      "minimum": "-99999999999.999",
+      "maximum": "99999999999.999",
+      "example": "0",
+      "title": "Sales Value inc. VAT"
+    },
+    "FiscalYear": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Fiscal Year"
+    },
+    "FiscalYearPeriod": {
+      "Optional": true,
+      "Short text": "Period Year",
+      "nullable": "true",
+      "maxLength": "7",
+      "title": "Fiscal Year & Period from Posting date"
+    },
+    "FiscalYearVariant": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "2",
+      "title": "Fiscal Year Variant",
+      "x-sap-object-node-type-reference": "FiscalYearVariant"
+    },
+    "IssgOrRcvgMaterial": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "40",
+      "title": "Transfer Material"
+    },
+    "IssgOrRcvgBatch": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Transfer Batch"
+    },
+    "IssuingOrReceivingPlant": {
+      "Optional": true,
+      "Short text": "Receiving/Issuing Plant",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Rec/Iss Plant"
+    },
+    "IssuingOrReceivingStorageLoc": {
+      "Optional": true,
+      "Short text": "Receiving/issuing storage location",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Receiving stor. loc."
+    },
+    "IssuingOrReceivingStockType": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "2",
+      "title": "Transfer Stock Type",
+      "x-sap-object-node-type-reference": "InventoryStockType"
+    },
+    "IssgOrRcvgSpclStockInd": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Transfer Special Stock Type",
+      "x-sap-object-node-type-reference": "InventorySpecialStockType"
+    },
+    "IssuingOrReceivingValType": {
+      "Optional": true,
+      "Short text": "Valuation Type of Transfer Batch",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Val. Type Tfr Batch",
+      "x-sap-object-node-type-reference": "ProductValuationType"
+    },
+    "IsCompletelyDelivered": {
+      "Optional": true,
+      "Short text": "\"Delivery Completed\" Indicator",
+      "nullable": "true",
+      "title": "Delivery Completed"
+    },
+    "MaterialDocumentItemText": {
+      "Optional": true,
+      "Short text": "Item Text",
+      "nullable": "true",
+      "maxLength": "50",
+      "title": "Text"
+    },
+    "UnloadingPointName": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "25",
+      "title": "Unloading Point"
+    },
+    "ShelfLifeExpirationDate": {
+      "Optional": true,
+      "Short text": "Shelf Life Expiration or Best-Before Date",
+      "nullable": "true",
+      "example": "/Date(1492041600000)/",
+      "title": "SLED/BBD"
+    },
+    "ManufactureDate": {
+      "Optional": true,
+      "nullable": "true",
+      "example": "/Date(1492041600000)/",
+      "title": "Date of Manufacture"
+    },
+    "SerialNumbersAreCreatedAutomly": {
+      "Optional": true,
+      "Short text": "Create serial number automatically",
+      "nullable": "true",
+      "title": "SerialNo. auto."
+    },
+    "Reservation": {
+      "Optional": true,
+      "Short text": "Number of reservation/dependent requirements",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Reservation"
+    },
+    "ReservationItem": {
+      "Optional": true,
+      "Short text": "Item Number of Reservation / Dependent Requirements",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Reservation Item"
+    },
+    "ReservationIsFinallyIssued": {
+      "Optional": true,
+      "Short text": "Final Issue for Reservation",
+      "nullable": "true",
+      "title": "Res Final Issue"
+    },
+    "SpecialStockIdfgSalesOrder": {
+      "Optional": true,
+      "Short text": "Sales order number of valuated sales order stock",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Sales order"
+    },
+    "SpecialStockIdfgSalesOrderItem": {
+      "Optional": true,
+      "Short text": "Sales Order Item of Valuated Sales Order Stock",
+      "nullable": "true",
+      "maxLength": "6",
+      "title": "Sales order item"
+    },
+    "SpecialStockIdfgWBSElement": {
+      "Optional": true,
+      "Short text": "Work Breakdown Structure Element (WBS Element)",
+      "nullable": "true",
+      "maxLength": "24",
+      "title": "WBS Element"
+    },
+    "IsAutomaticallyCreated": {
+      "Optional": true,
+      "Short text": "Item Automatically Created Indicator",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Automat. Created"
+    },
+    "MaterialDocumentLine": {
+      "Optional": true,
+      "Short text": "Unique Identification of Document Line",
+      "nullable": "true",
+      "maxLength": "6",
+      "title": "Line ID"
+    },
+    "MaterialDocumentParentLine": {
+      "Optional": true,
+      "Short text": "Identifier of immediately superior line",
+      "nullable": "true",
+      "maxLength": "6",
+      "title": "Parent line ID"
+    },
+    "HierarchyNodeLevel": {
+      "Optional": true,
+      "Short text": "Hierarchy level of line in document",
+      "nullable": "true",
+      "maxLength": "2",
+      "title": "Hierarchy level"
+    },
+    "GoodsMovementIsCancelled": {
+      "Optional": true,
+      "Short text": "Item has been Cancelled",
+      "nullable": "true",
+      "title": "Is Item Cancelled"
+    },
+    "ReversedMaterialDocumentYear": {
+      "Optional": true,
+      "Short text": "Reversed Material Document Year",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Reversed Doc Year"
+    },
+    "ReversedMaterialDocument": {
+      "Optional": true,
+      "Short text": "Reversed Material Document",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Reversed Mat Doc"
+    },
+    "ReversedMaterialDocumentItem": {
+      "Optional": true,
+      "Short text": "Reversed Material Document Item",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Reversed Doc Item"
+    },
+    "ReferenceDocumentFiscalYear": {
+      "Optional": true,
+      "Short text": "Fiscal Year of a Reference Document",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Fisc.yr.ref.doc"
+    },
+    "InvtryMgmtRefDocumentItem": {
+      "Optional": true,
+      "Short text": "Item of a Reference Document",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Reference Doc. Item"
+    },
+    "InvtryMgmtReferenceDocument": {
+      "Optional": true,
+      "Short text": "Document No. of a Reference Document",
+      "nullable": "true",
+      "maxLength": "10",
+      "title": "Reference Document"
+    },
+    "MaterialDocumentPostingType": {
+      "Optional": true,
+      "Short text": "Reversal, return delivery, or transfer posting",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Type of posting",
+      "x-sap-object-node-type-reference": "MaterialDocumentPostingType"
+    },
+    "InventoryUsabilityCode": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Posting Control Stock Type",
+      "x-sap-object-node-type-reference": "InventoryUsabilityCode"
+    },
+    "EWMWarehouse": {
+      "Optional": true,
+      "Short text": "Warehouse Number/Warehouse Complex",
+      "nullable": "true",
+      "maxLength": "4",
+      "title": "Warehouse Number",
+      "x-sap-object-node-type-reference": "Warehouse"
+    },
+    "EWMStorageBin": {
+      "Optional": true,
+      "nullable": "true",
+      "maxLength": "18",
+      "title": "Storage Bin"
+    },
+    "DebitCreditCode": {
+      "Optional": true,
+      "Short text": "Debit/Credit Indicator",
+      "nullable": "true",
+      "maxLength": "1",
+      "title": "Debit/Credit ind"
+    },
+    "to_MaterialDocumentHeader": {
+      "Optional": true,
+      "table": "Document Header"
+    },
+    "to_SerialNumbers": {
+      "Optional": true,
+      "table": "Serial Numbers"
+    }
+  }
+}

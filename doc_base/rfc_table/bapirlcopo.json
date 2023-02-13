@@ -1,0 +1,253 @@
+{
+  "description": "Release Codes for Purchase Order",
+  "PO_NUMBER": {
+    "Key": false,
+    "Data Element": "EBELN",
+    "Domain": "EBELN",
+    "DataType": "CHAR",
+    "Length": "10",
+    "DecimalPlaces": "0",
+    "Short Description": "Purchasing Document Number",
+    "Checktable": "EKKO"
+  },
+  "REL_CODE1": {
+    "Key": false,
+    "Data Element": "RELCODE1",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code 1",
+    "Checktable": "*"
+  },
+  "REL_CODE2": {
+    "Key": false,
+    "Data Element": "RELCODE2",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code 2",
+    "Checktable": "*"
+  },
+  "REL_CODE3": {
+    "Key": false,
+    "Data Element": "RELCODE3",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code 3",
+    "Checktable": "*"
+  },
+  "REL_CODE4": {
+    "Key": false,
+    "Data Element": "RELCODE4",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code 4",
+    "Checktable": "*"
+  },
+  "REL_CODE5": {
+    "Key": false,
+    "Data Element": "RELCODE5",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code 5",
+    "Checktable": "*"
+  },
+  "REL_CODE6": {
+    "Key": false,
+    "Data Element": "RELCODE6",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code 6",
+    "Checktable": "*"
+  },
+  "REL_CODE7": {
+    "Key": false,
+    "Data Element": "RELCODE7",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code 7",
+    "Checktable": "*"
+  },
+  "REL_CODE8": {
+    "Key": false,
+    "Data Element": "RELCODE8",
+    "Domain": "FRGCO",
+    "DataType": "CHAR",
+    "Length": "2",
+    "DecimalPlaces": "0",
+    "Short Description": "Release code 8",
+    "Checktable": "*"
+  },
+  "REL_CD_TX1": {
+    "Key": false,
+    "Data Element": "REL_CD_TX1",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code 1",
+    "Checktable": null
+  },
+  "REL_CD_TX2": {
+    "Key": false,
+    "Data Element": "REL_CD_TX2",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code 2",
+    "Checktable": null
+  },
+  "REL_CD_TX3": {
+    "Key": false,
+    "Data Element": "REL_CD_TX3",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code 3",
+    "Checktable": null
+  },
+  "REL_CD_TX4": {
+    "Key": false,
+    "Data Element": "REL_CD_TX4",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code 4",
+    "Checktable": null
+  },
+  "REL_CD_TX5": {
+    "Key": false,
+    "Data Element": "REL_CD_TX5",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code 5",
+    "Checktable": null
+  },
+  "REL_CD_TX6": {
+    "Key": false,
+    "Data Element": "REL_CD_TX6",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code 6",
+    "Checktable": null
+  },
+  "REL_CD_TX7": {
+    "Key": false,
+    "Data Element": "REL_CD_TX7",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code 7",
+    "Checktable": null
+  },
+  "REL_CD_TX8": {
+    "Key": false,
+    "Data Element": "REL_CD_TX8",
+    "Domain": "TEXT20",
+    "DataType": "CHAR",
+    "Length": "20",
+    "DecimalPlaces": "0",
+    "Short Description": "Description of release code",
+    "Checktable": null
+  },
+  "REL_WF1": {
+    "Key": false,
+    "Data Element": "REL_WF1",
+    "Domain": "FRGWF",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Role resolution for workflow for release code 1",
+    "Checktable": null
+  },
+  "REL_WF2": {
+    "Key": false,
+    "Data Element": "REL_WF2",
+    "Domain": "FRGWF",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Role resolution for workflow for release code 2",
+    "Checktable": null
+  },
+  "REL_WF3": {
+    "Key": false,
+    "Data Element": "REL_WF3",
+    "Domain": "FRGWF",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Role resolution for workflow for release code 3",
+    "Checktable": null
+  },
+  "REL_WF4": {
+    "Key": false,
+    "Data Element": "REL_WF4",
+    "Domain": "FRGWF",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Role resolution for workflow for release code 4",
+    "Checktable": null
+  },
+  "REL_WF5": {
+    "Key": false,
+    "Data Element": "REL_WF5",
+    "Domain": "FRGWF",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Role resolution for workflow for release code 5",
+    "Checktable": null
+  },
+  "REL_WF6": {
+    "Key": false,
+    "Data Element": "REL_WF6",
+    "Domain": "FRGWF",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Role resolution for workflow for release code 6",
+    "Checktable": null
+  },
+  "REL_WF7": {
+    "Key": false,
+    "Data Element": "REL_WF7",
+    "Domain": "FRGWF",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Role resolution for workflow for release code 7",
+    "Checktable": null
+  },
+  "REL_WF8": {
+    "Key": false,
+    "Data Element": "REL_WF8",
+    "Domain": "FRGWF",
+    "DataType": "CHAR",
+    "Length": "1",
+    "DecimalPlaces": "0",
+    "Short Description": "Role resolution for workflow for release code 8",
+    "Checktable": null
+  }
+}

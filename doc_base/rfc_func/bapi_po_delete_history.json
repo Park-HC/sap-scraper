@@ -1,5 +1,5 @@
 {
-  "description": "Bestellentwicklung fortschreiben ",
+  "description": "Bestellentwicklung l\u00f6schen ",
   "Exporting": {},
   "Importing": {
     "PURCHASEORDER": {
@@ -27,22 +27,6 @@
       "Optional": true,
       "Pass Value": true,
       "Short text": "Transfer Structure for PO History"
-    },
-    "POITEMHISTORYX": {
-      "Typing": "TYPE",
-      "Associated Type": "BAPIEKBEX",
-      "Default value": null,
-      "Optional": true,
-      "Pass Value": true,
-      "Short text": "Checkbox Bar of Transfer Structure for PO History"
-    },
-    "POITEMHISTORYADDON": {
-      "Typing": "TYPE",
-      "Associated Type": "BAPIEKBEADDON",
-      "Default value": null,
-      "Optional": true,
-      "Pass Value": true,
-      "Short text": "Additional Data of Transfer Structure for PO History"
     },
     "TOKENREFERENCE": {
       "Typing": "TYPE",

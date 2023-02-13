@@ -1,0 +1,65 @@
+{
+  "description": "Display Detailed Release ",
+  "Exporting": {
+    "GENERAL_RELEASE_INFO": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRLGNPO",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "General Release Information"
+    },
+    "RELEASE_PREREQUISITES": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRLCOPO",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Release Prerequisites"
+    },
+    "RELEASE_ALREADY_POSTED": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRLCOPO",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Releases to Date"
+    }
+  },
+  "Importing": {
+    "PURCHASEORDER": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-PO_NUMBER",
+      "Default value": null,
+      "Optional": false,
+      "Pass Value": true,
+      "Short text": "Purchase Order Number"
+    },
+    "PO_REL_CODE": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIMMPARA-PO_REL_COD",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Release Code"
+    }
+  },
+  "Tables": {
+    "RELEASE_FINAL": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRLCOPO",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Final Release"
+    },
+    "RETURN": {
+      "Typing": "TYPE",
+      "Associated Type": "BAPIRETURN",
+      "Default value": null,
+      "Optional": true,
+      "Pass Value": true,
+      "Short text": "Return Messages"
+    }
+  }
+}

@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup as bs
-from pprint import pprint
 import os.path
 from variables import *
 import json
@@ -64,15 +63,4 @@ def get_function_scheme(function_name):
         return api_parameter_dict
 
 
-# pprint(get_function_scheme('bapi_goodsmvt_create'))
-# get_function_scheme('BAPI_USER_GET_DETAIL')
-# get_function_scheme('BAPI_GOODSMVT_GETITEMS')
-# get_function_scheme('BAPI_GOODSMVT_GETDETAIL')
-get_function_scheme('BAPI_PO_UPDATE_HISTORY')
-get_function_scheme('BAPI_PO_RESET_RELEASE')
-get_function_scheme('BAPI_PO_RELEASE')
-get_function_scheme('BAPI_PO_GETITEMSREL')
-get_function_scheme('BAPI_PO_GETITEMS')
-get_function_scheme('BAPI_PO_GETDETAIL')
-get_function_scheme('BAPI_PO_GET_LIST')
-get_function_scheme('BAPI_PO_CHANGE')
+get_function_scheme('BAPI_PO_GETRELINFO')
